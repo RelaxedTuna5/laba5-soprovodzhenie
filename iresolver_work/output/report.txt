@@ -1,0 +1,157 @@
+KAFKA-17361 : KAFKA producer thread hung or infinite wait state 
+
+similar issues: 
+KAFKA-13032 - 83.06321501731873
+KAFKA-17850 - 82.0816695690155
+KAFKA-12396 - 79.44248914718628
+KAFKA-17099 - 78.5865843296051
+KAFKA-10246 - 77.51064896583557
+KAFKA-8142 - 75.95165967941284
+KAFKA-13400 - 75.6837546825409
+KAFKA-14567 - 75.67026019096375
+KAFKA-5205 - 75.12688636779785
+KAFKA-9310 - 74.02607202529907
+
+users: 
+Matthias J. Sax - <unknown> - 10
+Bruno Cadonna - <unknown> - 4
+ASF GitHub Bot - <unknown> - 4
+Valery Kokorev - <unknown> - 2
+prabhu - <unknown> - 2
+Gary Russell - <unknown> - 2
+Niclas Hedhman - <unknown> - 1
+DV Singh - <unknown> - 1
+Sebastien Viale - null - 1
+Kirk True - <unknown> - 1
+Kyle Winkelman - <unknown> - 1
+Yanwen Lin - <unknown> - 1
+Yanwen Lin - null - 1
+Loïc Greffier - null - 1
+Matthias J. Sax - null - 1
+prabhu biradar - <unknown> - 1
+John Roesler - null - 1
+Valery Kokorev - null - 1
+Kyle Winkelman - null - 1
+A. Sophie Blee-Goldman - <unknown> - 1
+John Roesler - <unknown> - 1
+Kirk True - null - 1
+
+labels: 
+beginner - 2
+easy-fix - 1
+newbie - 1
+eos - 1
+transactions - 1
+
+attachments: 
+
+proposals: 
+Should assign on the qualified engineer
+Request components field from TSE
+Developer is probably working on the problem
+Request affectedVersions field from TSE
+Developer should set labels field
+Target fix version is missing: schedule for upcoming release milestone
+
+
+KAFKA-16800 : Resolve Gradle 9.0 deprecations
+
+similar issues: 
+KAFKA-17277 - 71.46868705749512
+KAFKA-18052 - 65.82745909690857
+KAFKA-13759 - 64.84401822090149
+KAFKA-20459 - 64.6263599395752
+KAFKA-18820 - 64.58672285079956
+KAFKA-18351 - 64.27686810493469
+KAFKA-20969 - 63.76067399978638
+KAFKA-19359 - 63.7179434299469
+KAFKA-10027 - 63.588279485702515
+KAFKA-10026 - 63.55733275413513
+
+users: 
+Vishal - <unknown> - 3
+Hareesh Billa - <unknown> - 3
+Chia-Ping Tsai - <unknown> - 3
+Jun Rao - <unknown> - 2
+Luke Chen - <unknown> - 2
+Ken Huang - null - 2
+Ritika Reddy - null - 1
+Andrew Schofield - <unknown> - 1
+Omnia Ibrahim - <unknown> - 1
+Kowshik Prakasam - null - 1
+Dongnuo Lyu - null - 1
+Surojeet Ghosh - <unknown> - 1
+Kowshik Prakasam - <unknown> - 1
+Konstantine Karantasis - <unknown> - 1
+Konstantine Karantasis - null - 1
+Federico Valeri - <unknown> - 1
+
+labels: 
+
+attachments: 
+.png - 2 - Picture - false
+
+proposals: 
+Resolve sub-tasks first before closing parent ticket
+Developer is probably working on the problem
+Change task status to IN PROGRESS
+Should change status to IN PROGRESS
+Target fix version is missing: schedule for upcoming release milestone
+
+
+KAFKA-16628 : Add system test for validating static consumer bounce and assignment when not eager
+
+similar issues: 
+KAFKA-10292 - 73.01159501075745
+KAFKA-18840 - 70.57497501373291
+KAFKA-19925 - 68.72584819793701
+KAFKA-17460 - 67.4182116985321
+KAFKA-18146 - 66.84695482254028
+KAFKA-18030 - 66.17712378501892
+KAFKA-17978 - 65.90226888656616
+KAFKA-5725 - 65.82005620002747
+KAFKA-17737 - 65.73721170425415
+KAFKA-12455 - 65.70280194282532
+
+users: 
+Chia-Ping Tsai - <unknown> - 7
+Ron Dagostino - <unknown> - 3
+Mingdao Yang - null - 2
+Francis Godinho - <unknown> - 2
+A. Sophie Blee-Goldman - <unknown> - 2
+Mingdao Yang - <unknown> - 2
+Ismael Juma - <unknown> - 2
+PoAn Yang - <unknown> - 2
+Nicholas Telford - null - 1
+Eno Thereska - null - 1
+Bruno Cadonna - <unknown> - 1
+Francis Godinho - null - 1
+Jhen-Yung Hsu - <unknown> - 1
+Matthias J. Sax - <unknown> - 1
+Justine Olshan - <unknown> - 1
+Chia-Chuan Yu - <unknown> - 1
+John Roesler - <unknown> - 1
+Ron Dagostino - null - 1
+Bill Bejeck - <unknown> - 1
+Bruno Cadonna - null - 1
+Jhen-Yung Hsu - null - 1
+Kevin Wu - <unknown> - 1
+ASF GitHub Bot - <unknown> - 1
+TaiJuWu - <unknown> - 1
+Konstantine Karantasis - <unknown> - 1
+David Jacot - null - 1
+
+labels: 
+flaky-test - 1
+
+attachments: 
+.png - 2 - Picture - false
+
+proposals: 
+Should change status to IN PROGRESS
+Request components field from TSE
+Change task status to IN PROGRESS
+Developer is probably working on the problem
+Target fix version is missing: schedule for upcoming release milestone
+
+

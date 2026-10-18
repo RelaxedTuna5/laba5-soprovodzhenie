@@ -1,0 +1,2 @@
+0 cloudera-kafka-guide.pdf
+1 confluent-kafka-definitive-guide.pdf

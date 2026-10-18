@@ -1,0 +1,1665 @@
+27821303 Index
+27822128 About Kafka
+27822226 Kafka papers and presentations
+27826763 Compression
+27829209 Performance testing
+27830481 Powered By
+27831035 Kafka mirroring
+27831395 Wire Format
+27831911 New Wire Format Proposal
+27832416 Writing a Driver for Kafka
+27835336 Developer Setup
+27837939 Operations
+27840158 Kafka Replication
+27842792 State machine design discussion
+27842871 Consumer API changes
+27843298 Kafka replication detailed design V2
+27844516 kafka Detailed Replication Design V3
+27846330 Kafka mirroring (MirrorMaker)
+27848185 Handling Produce and Fetch Requests in KafkaApi
+27848777 Consumer Client Re-Design
+27849051 Kafka Internals
+27849357 Hierarchical Topics
+27850786 Kafka Detailed Consumer Coordinator Design
+27851521 Kafka 0.9 consumer protocol
+29130755 Restful API Proposal
+30147230 Whiteboard
+30147811 Kafka replication development
+30148485 Keyed Messages Proposal
+30736606 Clients
+30736633 Audit Trail Proposal
+30738011 Producer API Proposal
+30742608 Maintainers
+30743483 A Guide To The Kafka Protocol
+30744302 Offset Management
+30746989 Patch submission and review
+30747974 Ecosystem
+30748995 Dynamic Topic Config
+30749496 Changes in Kafka 0.8
+30749857 Log Cleaner Improvements
+30753468 Kafka data structures in Zookeeper
+30758538 KAFKA-656 - Quota Design
+30758932 0.8.0 Producer Example
+30759957 0.8.0 SimpleConsumer Example
+30760077 Finding Topic and Partition Leader
+31819341 Migrating from 0.7 to 0.8
+31819940 Consumer Group Example
+31819985 Replication tools
+33293069 FAQ
+33293301 Client Rewrite
+33293353 Projects
+34013561 Inbuilt Consumer Offset Management
+34016557 JMX Reporters
+34017288 Kafka patch review tool
+34017966 Security
+34019842 Bylaws
+34021929 Producer throughput improvement
+34025230 .bookmarks
+34839465 Request Purgatory (0.8)
+34840263 Broker side quota (V1)
+34840886 Release Process
+34841903 Future release plan
+38569553 System Tools
+38569686 Kafka Controller Internals
+38570548 Kafka 0.9 Consumer Rewrite Design
+38570672 Having a Resource Negotiator launch Brokers, Producers and/or Consumers
+38570693 Launching Kafka with Apache Mesos
+38571263 Kafka 0.9 Unit and Integration Tests
+38571308 Idempotent Producer
+39622083 Kafka System Tests
+39622089 Kafka replication system tests
+39622090 Kafka system testcases
+42568405 Transactional Messaging in Kafka
+43188687 Single Reader/Writer
+44304060 Kafka API Refactoring
+45875438 Kafka Error Handling and Logging
+46634021 Schema based topics
+47382966 Kafka Enriched Message Metadata
+48202031 Committing and fetching consumer offsets in Kafka
+48203052 Kafka Command Line and Related Improvements
+48792688 Multiple Listeners for Kafka Brokers
+50233353 Kafka Command Line Tool Installation
+50859233 Kafka Improvement Proposals
+50859269 KIP-1 - Remove support of request.required.acks
+50859663 Eclipse-Scala-Gradle-Git Developement Environment Setup
+50859709 KIP-Template
+50859961 Design - Authorization Interface
+50860018 KIP-2 - Refactor brokers to allow listening on multiple ports and IPs
+50860288 KIP-3 - Mirror Maker Enhancement
+50860476 KIP-4 - Command line and centralized administrative operations
+50860478 KIP-5 - Broker Configuration Management
+50860480 KIP-6 - New reassignment partition logic for rebalancing
+51806236 KIP-7 - Security - IP Filtering
+51806328 KIP-9 - SSL Support
+51806551 KIP-10 - Running Producer, Consumers and Brokers on Mesos
+51807580 KIP-11 - Authorization Interface
+51808755 Available Metrics
+51809752 drafts
+51809757 KIP-8 - Add a flush method to the producer API
+51809888 KIP-12 - Kafka Sasl/Kerberos and SSL implementation
+51811052 o.a.k.common Error Hierarchy
+51811957 KIP-30 - Allow for brokers to have plug-able consensus and meta data storage sub systems
+51812197 Purgatory Redesign Proposal
+51812210 KIP-13 - Quotas
+51812615 KIP-14 - Tools Standardization
+53739782 KIP-15 - Add a close method with a timeout in the producer
+53740845 KIP-16 - Automated Replica Lag Tuning
+55151831 KIP-17 - Add HighwaterMarkOffset to OffsetFetchResponse
+55151966 System Test Improvements
+55153115 KIP-18 - JBOD Support
+55154824 KIP-19 - Add a request timeout to NetworkClient
+55155993 KIP-20 - Enable log preallocate to improve consume performance under windows and some old Linux file system
+55156351 KIP-21 - Dynamic Configuration
+55156546 KIP-22 - Expose a Partitioner interface in the new producer
+56066809 Kafka Controller Redesign
+56852556 KIP-23 - Add JSON/CSV output and looping options to ConsumerGroupCommand
+57311420 KIP-24 - Remove ISR information from TopicMetadataRequest and add broker level metadata request
+57903177 KIP-25 - System test improvements
+57905872 Roadmap - port existing system tests
+58851767 KIP-26 - Add Kafka Connect framework for data import/export
+58851837 jmxterm quickstart
+59689925 Contributing Code Changes
+60623883 KIP-27 - Conditional Publish
+60625128 KIP-28 - Add a processor client
+61309558 KIP-28 Related Works
+61309923 New consumer API change proposal
+61310178 Copycat Data API
+61310740 Patch Review Tool
+61310752 Manual Commit Workflow
+61310761 Merging Github Pull Requests
+61311226 KIP-29 - Add an IsrPropagateIntervalMs configuration to KafkaConfig
+61312126 Kafka Client-side Assignment Proposal
+61312463 tutorial - set up and run Kafka system tests with ducktape
+61313878 Deploying SSL for Kafka
+61313927 Proposed patches for 0.8.2.2
+61316828 KIP-39 Pinning controller to broker
+61317519 KIP-31 - Move to relative offsets in compressed message sets
+61318265 KIP-32 - Add timestamps to Kafka message
+61318517 KIP-33 - Add a time based log index
+61318857 KIP-34 Add Partitioner Change Listener to Partitioner Interface for Multiple Use Case
+61320744 KIP-35 - Retrieving protocol version
+61321028 KIP-36 Rack aware replica assignment
+61321904 KIP-37 - Add Namespaces to Kafka
+61322086 Contributing Website Documentation Changes
+61323986 Kafka Authorization Command Line Interface
+61324523 KIP-38: ZooKeeper Authentication
+61325633 KIP-40: ListGroups and DescribeGroup
+61326390 Deploying SASL/Kerberos for Kafka
+61333789 KIP-41: KafkaConsumer Max Records
+61337088 KIP-42: Add Producer and Consumer Interceptors
+61337259 KIP-43: Kafka SASL enhancements
+61337319 KIP-44 - Allow Kafka to have a customized security protocol
+61337336 KIP-45 - Standardize all client sequence interaction on j.u.Collection.
+61338486 KIP-46: Self Healing Kafka
+61339268 KIP-47 - Add timestamp-based log deletion policy
+61340085 KIP-48 Delegation token support for Kafka
+61341478 KIP-49 - Fair Partition Assignment Strategy
+62685862 KIP-50 - Move Authorizer to o.a.k.common package
+62686546 Release Plan 0.10.0
+62688978 KIP-51 - List Connectors REST API
+62690048 KIP-52: Connector Control APIs
+62690630 KIP-53 - Add custom policies for reconnect attempts to NetworkdClient
+62690694 Kafka Streams Development Plan
+62692483 KIP-54 - Sticky Partition Assignment Strategy
+62693031 KIP-55: Secure Quotas for Authenticated Users
+62693138 KIP-56: Allow cross origin HTTP requests on all HTTP methods
+62693834 Kafka Streams Discussions
+62693837 Discussion: Serialization and Deserialization Options
+62694040 KIP-57 - Interoperable LZ4 Framing
+62695984 KIP-58 - Make Log Compaction Point Configurable
+62695998 KIP-59: Proposal for a kafka broker command
+62696048 KIP-60 - Make Java client classloading more flexible
+62696726 KIP-61: Add a log retention parameter for maximum disk space usage percentage
+63406974 KIP-62: Allow consumer to send heartbeats from a background thread
+63407285 Discussion: Non-key KTable-KTable Joins
+63407287 Discussion: Joins (as of 0.10.0.0)
+64553012 KIP-63: Unify store and downstream caching in streams
+64553788 KIP-70: Revise Partition Assignment Semantics on New Consumer's Subscription Change
+64554291 Discussion: Memory Management in Kafka Streams
+65143239 KIP-64 -Allow underlying distributed filesystem to take over replication depending on configuration
+65143671 Discussion: Expose State Store Names in DSL (0.10.0)
+65143827 KIP-65: Expose timestamps to Connect
+65144300 KIP-67: Queryable state for Kafka Streams
+65144539 KIP-69 - Kafka Schema Registry
+65144571 KIP-68 Add a consumed log retention before log retention
+65145676 KIP-66: Single Message Transforms for Kafka Connect
+65864170 KIP-71: Enable log compaction and deletion to co-exist
+65864580 KIP-72: Allow putting a bound on memory consumed by Incoming requests
+65864833 KIP-73 Replication Quotas
+65864887 KIP-74: Add Fetch Response Size Limit in Bytes
+65864912 Kafka Streams
+65864917 Kafka Streams Internal Data Management
+65865403 Kafka Streams Application Reset Tool
+65865496 KIP-75 - Add per-connector Converters
+65866201 KIP-77: Improve Kafka Streams Join Semantics
+65867057 KIP-76 Enable getting password from executable rather than passing as plaintext in config files
+65867320 Time Based Release Plan
+65867685 KIP-78: Cluster Id
+65868090 KIP-79 - ListOffsetRequest/ListOffsetResponse v1 and add timestamp search methods to the new consumer
+65869847 KIP-81: Bound Fetch memory usage in the consumer
+65870072 Release Plan 0.10.1
+65870596 KIP-80: Kafka Rest Server
+65871723 KIP-82 - Add Record Headers
+65872010 A Case for Kafka Headers
+65872519 KIP-83 - Allow multiple SASL authenticated Java clients in a single JVM process
+65873453 KIP-84: Support SASL SCRAM mechanisms
+65873665 KIP-85: Dynamic JAAS configuration for Kafka clients
+65874679 KIP-86: Configurable SASL callback handlers
+65874816 Headers Value Message Wrapper
+65876755 Kafka Streams Join Semantics
+65877248 KIP-87 - Add Compaction Tombstone Flag
+66849788 KIP-88: OffsetFetch Protocol Update
+66850974 KIP-89: Allow sink connectors to decouple flush and offset commit
+66851583 KIP-91 Provide Intuitive User Timeouts in The Producer
+66851589 KIP-90 - Remove zkClient dependency from Streams
+66852206 KIP-92 - Add per partition lag metrics to KafkaConsumer
+66852643 Kafka Streams Data (Re)Processing Scenarios
+66853188 KIP-93: Improve invalid timestamp handling in Kafka Streams
+66853499 KIP-94 Session Windows
+66853988 KIP-95: Incremental Batch Processing for Kafka Streams
+66854629 KIP-96 - Add per partition metrics for in-sync and assigned replica count
+66854726 KIP-97: Improved Kafka Client RPC Compatibility Policy
+66854738 Code Reviews
+66854913 KIP-98 - Exactly Once Delivery and Transactional Messaging
+67633649 KIP-99: Add Global Tables to Kafka Streams
+67633989 Connect Transforms - Proposed Design
+67634037 KIP-100 - Relax Type constraints in Kafka Streams API
+67634337 KIP-101 - Alter Replication Protocol to use Leader Epoch rather than High Watermark for Truncation
+67634793 Setup Kafka Website on Local Apache Server
+67634985 KIP-102 - Add close with timeout for consumers
+67635124 Analyzing NiFi Transformations
+67635536 Double journaling with local data copy
+67635627 KIP-103: Separation of Internal and External traffic
+67636480 KIP-104: Granular Sensors for Streams
+67636483 KIP-105: Addition of Recording Level for Sensors
+67636637 Release Plan 0.10.2.0
+67636795 KIP-106 - Change Default unclean.leader.election.enabled from True to False
+67636826 KIP-107: Add deleteRecordsBefore() API in AdminClient
+67637027 KIP-108: Create Topic Policy
+67637219 KIP-109: Old Consumer Deprecation
+67637330 KIP-110: Add Codec for ZStandard Compression
+67638388 KIP-111: Kafka should preserve the Principal generated by the PrincipalBuilder while processing the request received on socket channel, on the broker.
+67638402 KIP-112: Handle disk failure for JBOD
+67638408 KIP-113: Support replicas movement between log directories
+67638734 KIP-114: KTable state stores and improved semantics
+67639958 KIP-115: Enforce offsets.topic.replication.factor upon __consumer_offsets auto topic creation
+67640736 KIP-116: Add State Store Checkpoint Interval Configuration
+67640995 KIP-117: Add a public AdminClient API for Kafka admin operations
+67641075 KIP-118: Drop Support for Java 7
+67641173 KIP-119: Drop Support for Scala 2.10 in Kafka 0.11
+67641273 KIP-120: Cleanup Kafka Streams builder API
+67641627 KIP-121: Add KStream peek method
+67641850 KIP-122: Add Reset Consumer Group Offsets tooling
+67642267 KIP-82 - Add Record Headers - Typed
+68714788 KIP-123: Allow per stream/table timestamp extractor
+68715211 KIP-124 - Request rate quotas
+68715537 KIP-125: ZookeeperConsumerConnector to KafkaConsumer Migration and Rollback
+68715853 KIP-127: Pluggable JAAS LoginModule configuration for SSL
+68715855 KIP-126 - Allow KafkaProducer to split and resend oversized batches.
+68716559 KIP-128: Add ByteArrayConverter for Kafka Connect
+68716876 Release Plan 0.11.0.0
+68717010 KIP-129: Streams Exactly-Once Semantics
+68717099 KIP 130: Expose states of active tasks to KafkaStreams public API
+68717313 Retrospectives
+68717314 0.10.2.0 Retrospective
+68718046 KIP-131 - Add access to OffsetStorageReader from SourceConnector
+68718545 Kafka Streams Architecture
+68718883 KIP-132: Augment KStream.print to allow extra parameters in the printed string
+68719318 KIP-133: Describe and Alter Configs Admin APIs
+68719924 KIP-134: Delay initial consumer group rebalance
+68719976 KIP-135 : Send of null key to a compacted topic should throw non-retriable error back to user
+68721276 KIP-136: Add Listener name to SelectorMetrics tags
+68721286 KIP-137: Enhance TopicCommand --describe to show topics marked for deletion
+68721804 KIP-138: Change punctuate semantics
+69405282 Punctuate Use Cases
+69405327 KIP-139: Kafka TestKit library
+69406032 KIP-140: Add administrative RPCs for adding, deleting, and listing ACLs
+69406838 KIP 141 - ProducerRecord & SourceRecord: Add timestamp constructors
+69407025 KIP-142: Add ListTopicsRequest to efficiently list all the topics in a cluster
+69407281 KIP-148: Add a connect timeout for client
+69407758 KIP-143: Controller Health Metrics
+69408222 KIP-144: Exponential backoff for broker reconnect attempts
+69408335 KIP-146 - Classloading Isolation in Connect
+69408378 KIP-145 - Expose Record Headers in Kafka Connect
+69408481 KIP-147: Add missing type parameters to StateStoreSupplier factories and KGroupedStream/Table methods
+69408532 KIP-149: Enabling key access in ValueTransformer, ValueMapper, and ValueJoiner
+69408611 KIP-150 - Kafka-Streams Cogroup
+69408884 KIP-151 Expose Connector type in REST API
+69409116 KIP-152 - Improve diagnostics for SASL authentication failures
+69409778 KIP-153: Include only client traffic in BytesOutPerSec metric
+69409783 KIP-154 Add Kafka Connect configuration properties for creating internal topics
+69410076 KIP 155 - Add range scan for windowed state stores
+69410145 KIP 156 - Add option "dry run" to Streams application reset tool
+69410150 KIP 156 Add option "dry run" to Streams application reset tool
+69410152 KIP 156 Add option "dry run" to Streams application reset tool (Copy)
+69410314 Kafka Stream Usage Patterns
+70255483 KIP 157 - Add consumer config options to streams reset tool
+70255987 KIP-158: Kafka Connect should allow source connectors to set topic-specific settings for new topics
+70256088 KIP-159: Introducing Rich functions to Streams
+70256204 KIP-160: Augment KStream.print(), KStream.writeAsText() to allow users pass in extra parameters in the printed string
+70256729 KIP-161: streams deserialization exception handlers
+70256948 KIP-162 - Enable topic deletion by default
+70256996 KIP-163: Lower the Minimum Required ACL Permission of OffsetFetch
+70257093 KIP-164- Add UnderMinIsrPartitionCount and per-partition UnderMinIsr metrics
+70257246 KIP-165: Extend Interactive Queries for return latest update timestamp per key
+70257576 KIP-166 - Add a tool to make amounts of replicas and leaders on brokers balanced
+70257753 KIP-167: Add interface for the state store restoration process
+71011498 KIP-168: Add GlobalTopicCount and GlobalPartitionCount metrics per cluster
+71011801 KIP-169 - Lag-Aware Partition Assignment Strategy
+71012345 KIP-170: Enhanced TopicCreatePolicy and introduction of TopicDeletePolicy
+71012597 Global sums for currently active sessions
+71012603 Windowed aggregations over successively increasing timed windows
+71012866 KIP-171 - Extend Consumer Group Reset Offset for Stream Application
+71012897 KIP 172: Add regular-expression topic support for sink connector
+71013225 KIP-173: Add prefix to StreamsConfig to enable setting default internal topic configs
+71013377 KIP-174 - Deprecate and remove internal converter configs in WorkerConfig
+71013461 KIP-175: Additional '--describe' views for ConsumerGroupCommand
+71764913 Release Plan 1.0.0 (2017 Oct.)
+73105496 KIP-177: Consumer perf tool should count rebalance time
+73630174 KIP-176: Remove deprecated new-consumer option for tools
+73630269 KIP-178: Size-based log directory selection strategy
+73630405 Old KIP-179 - Change ReassignPartitionsCommand to use AdminClient
+73630435 KIP-178 - Change ReassignPartitionsCommand to use AdminClient
+73630629 KIP-180: Add a broker metric specifying the number of consumer group rebalances in progress
+73631210 KIP-181: DescribeGroups Protocol Enhancement
+73631309 KIP-182: Reduce Streams DSL overloads and allow easier use of custom storage engines
+73632042 KIP-179 - Change ReassignPartitionsCommand to use AdminClient
+73632065 KIP-183 - Change PreferredReplicaLeaderElectionCommand to use AdminClient
+73632389 KIP-184: Rename LogCleaner and related classes to LogCompactor
+73632637 KIP-185: Make exactly once in order delivery per partition the default producer setting
+73632650 Kafka Performance Testing
+73632652 An analysis of the impact of max.in.flight.requests.per.connection and acks on Producer performance
+73632673 KIP-186: Increase offsets retention default to 7 days
+73633584 KIP-187 - Add cumulative count metric for all Kafka rate metrics
+73633629 KIP-188 - Add new metrics to support health checks
+73633738 KIP-189: Improve principal builder interface and add support for SASL
+73634043 Kafka Exactly Once - Solving the problem of spurious OutOfOrderSequence errors
+73634045 Kafka Exactly Once - Dealing with older message formats when idempotence is enabled
+73634046 Kafka Exactly Once Semantics
+73634264 KIP-190: Handle client-ids consistently between clients and brokers
+73634437 Fault Injection
+73634639 KIP-191: KafkaConsumer.subscribe() overload that takes just Pattern
+73635574 KIP-192 : Provide cleaner semantics when idempotence is enabled
+73635931 KIP-193: Add SchemaBuilder.from(Schema)
+73637005 KIP-195: AdminClient.createPartitions
+73637052 KIP-196: Add metrics to Kafka Connect framework
+73637291 KIP-197 Connect REST API should include the connector type when describing a connector
+73637352 KIP-198: Remove ZK dependency from Streams Reset Tool
+73637527 KIP-199: Add Kafka Connect offset tool
+73637757 KIP-149 / 159 / 182: what should they look like in the end
+73637960 KIP-201: Rationalising Policy interfaces
+73638194 Compatibility Matrix
+73638635 KIP-202 Move merge() from StreamsBuilder to KStream
+73638839 KIP-203: Add toLowerCase support to sasl.kerberos.principal.to.local rule
+73638966 KIP-204 : Adding records deletion operation to the new Admin Client API
+73639914 KIP-205: Add all() and range() API to ReadOnlyWindowStore
+73640155 KIP-206: Add support for UUID serialization and deserialization
+74682011 KIP-207: Offsets returned by ListOffsetsResponse should be monotonically increasing even during a partition leader change
+74682562 KIP-208: Add SSL support to Kafka Connect REST interface
+74683647 KIP-209 - Connection String Support
+74683973 KIP-210 - Provide for custom error handling  when Kafka Streams fails to produce
+74683993 KIP-211: Revise Expiration Semantics of Consumer Group Offsets
+74684586 KIP-212: Enforce set of legal characters for connector names
+74684836 KIP-213 Support non-key joining in KTable
+74684881 KIP-214: Add zookeeper.max.in.flight.requests config to the broker
+74685072 KIP-215: Add topic regex support for Connect sinks
+74685136 KIP-216: IQ should throw different exceptions for different errors
+74685208 KIP-217: Expose a timeout to allow an expired ZK session to be re-created
+74685696 KIP-218: Make KafkaFuture.Function java 8 lambda compatible
+74685726 KIP-219 - Improve quota communication
+74686016 KIP-220: Add AdminClient into Kafka Streams' ClientSupplier
+74686091 KIP-221: Enhance DSL with Connecting Topic Creation and Repartition Hint
+74686265 KIP-222 - Add Consumer Group operations to Admin API
+74686616 KIP-223 - Add per-topic min lead and per-partition lead metrics to KafkaConsumer
+74686628 KIP-224: Add configuration parameter `retries` to Streams API
+74686649 KIP-225 - Use tags for consumer “records.lag” metrics
+74687608 KIP-226 - Dynamic Broker Configuration
+74687799 KIP-227: Introduce Incremental FetchRequests to Increase Partition Scalability
+74688535 KIP-228 Negative record timestamp support
+74688596 KIP-229: DeleteGroups API
+74688702 KIP 230: Name Windowing Joins
+74688765 KIP-231: Improve the Required ACL of ListGroups API
+74689007 KIP-232: Detect outdated metadata using leaderEpoch and partitionEpoch
+74689212 KIP-233: Simplify StreamsBuilder#addGlobalStore
+74689227 KIP-234: add support for getting topic defaults from AdminClient
+74689470 KIP-235: Add DNS alias support for secured connection
+74689571 KIP-236: Interruptible Partition Reassignment
+74689630 KIP-237: More Controller Health Metrics
+74690244 KIP-238: Expose Kafka cluster ID in Connect REST API
+74690367 KIP-239 Add queryableStoreName() to GlobalKTable
+74690904 KIP-240: AdminClient.listReassignments AdminClient.describeReassignments
+74691066 KIP-241 KTable repartition with compacted Topics
+74691099 KIP-242: Mask password in Kafka Connect Rest API response
+74691124 KIP-243: Make ProducerConfig and ConsumerConfig constructors public
+74691347 KIP-244: Add Record Header support to Kafka Streams Processor API
+74691624 KIP-245: Use Properties instead of StreamsConfig in KafkaStreams constructor
+74691639 KIP-260: add primary join operation for Stream-Stream join (WIP)
+75956968 KIP-246: Connect producers and consumers should inherit worker configs
+75957009 KIP-247: Add public test utils for Kafka Streams
+75957151 Release Plan 1.0.1
+75957546 Release Plan 1.1.0 (2018 Feb.)
+75957551 KIP-248 - Create New ConfigCommand That Uses The New AdminClient
+75958025 KIP-249: Add Delegation Token Operations to KafkaAdminClient
+75962600 KIP-250 Add Support for Quorum-based Producer Acknowledgment
+75963407 Discussion: Topology Optimizations for Footprint Reduction
+75963938 KIP-251: Allow timestamp manipulation in Processor API
+75964044 KIP-252 - Extend ACLs to allow filtering based on ip ranges and subnets
+75966663 KIP-253: Support in-order message delivery with partition expansion
+75968185 KIP-254: JsonConverter Exception Handeling
+75968876 KIP-255 OAuth Authentication via SASL/OAUTHBEARER
+75972258 KIP-256: Add RocksDB statistics via Streams metrics
+75972280 KIP-257 - Configurable Quota Management
+75972306 KIP-258: Allow to Store Record Timestamps in RocksDB
+75972350 KIP-259: Improve Streams DSL Timestamp Propagation Semantics
+75973713 KIP-261: Add Single Value Fetch in Window Stores
+75973874 KIP-262: Metadata should include number of state stores for task
+75974120 KIP-263: Allow broker to skip sanity check of inactive segments on broker startup
+75974344 KIP-264: Add a consumer metric to record raw fetch size
+75974650 KIP-265: Make Windowed Serde to public APIs
+75974886 KIP-266: Fix consumer indefinite blocking behavior
+75975416 KIP-267: Add Processor Unit Test Support to Kafka Streams Test Utils
+75976179 KIP-268: Simplify Kafka Streams Rebalance Metadata Upgrade
+75976229 KIP 269 Substitution Within Configuration Values
+75976250 [DRAFT] KIP-271: Add NetworkClient redirector
+75976307 KIP-270 - A Scala Wrapper Library for Kafka Streams
+75976364 KIP-271: Add NetworkClient redirector
+75976659 KIP-272: Add API version tag to broker's RequestsPerSec metric
+75977558 KIP-273 - Kafka to support using ETCD beside Zookeeper
+75977600 KIP-274: Kafka Streams Skipped Records Metrics
+75977607 KIP-275 - Indicate "isClosing" in the SinkTaskContext
+75977618 KIP-276 Add StreamsConfig prefix for different consumers
+75977678 KIP-277 - Fine Grained ACL for CreateTopics API
+75978116 KIP-278 - Add version option to Kafka's commands
+75978240 Kafka Authorizations (ACLs)
+75978321 KIP-281: ConsumerPerformance: Increase Polling Loop Timeout and Make It Reachable by the End User
+75978352 KIP-279: Fix log divergence between leader and follower after fast leader fail over
+75978496 KIP-280: Enhanced log compaction
+75979015 KIP-282: Add the listener name to the authentication context
+75979691 KIP-283: Efficient Memory Usage for Down-Conversion
+75979789 KIP-284: Set default retention ms for Streams repartition topics to Long.MAX_VALUE
+80117763 KIP-285: Connect Rest Extension Plugin
+80445997 KIP-286: producer.send() should not block on metadata update
+80446933 KIP-287: Support partition and processor expansion for stateful processing jobs
+80447314 KIP-288: [DISCARDED] Consumer.poll() timeout semantic change and new waitForAssignment method
+80448820 Release Plan 2.0.0 (June 2018)
+80452189 KIP-289: Improve the default group id behavior in KafkaConsumer
+80452418 KIP-290: Support for Prefixed ACLs
+80452519 KIP-292: Add transformValues() method to KTable
+80452537 KIP-293 Add new metrics for consumer/replication fetch requests
+80452564 KIP-291: Separating controller connections and requests from the data plane
+80452840 KIP-294 - Enable TLS hostname verification by default
+80452951 KIP-295: Add Streams Configuration Allowing for Optional Topology Optimization
+80452962 KIP-296: Connector level configurability for client configs
+80452981 KIP-297: Externalizing Secrets for Connect Configurations
+80452992 KIP-NEXT: Get rid of unnecessary read lock
+80453062 KIP-DRAFT: Error Handling in Connect
+80453065 KIP-298: Error Handling in Connect
+80453502 KIP-300: Add Windowed KTable API in StreamsBuilder
+80453670 KIP-301: Schema Inferencing for JsonConverter
+81788982 KIP-302 - Enable Kafka clients to use all DNS resolved IP addresses
+81789101 KIP-303: Add Dynamic Routing in Streams Sink
+81789329 KIP-304: Connect runtime mode improvements for container platforms
+81789486 KIP-305: Add Connect primitive number converters
+81789781 KIP-306: Configuration for Delaying Response to Failed Client Authentication
+85469638 KIP-307: Allow to define custom processor names with KStreams DSL
+85470796 KIP-310: Add a Kafka Source Connector to Kafka Connect
+85473664 KIP-635: GetOffsetShell: support for multiple topics and consumer configuration override
+85474993 KIP-308: Support dynamic update of max.connections.per.ip/max.connections.per.ip.overrides configs
+85475178 KIP-309: Add toUpperCase support to sasl.kerberos.principal.to.local rule
+85475911 KIP-311: Async processing with dynamic scheduling in Kafka Streams
+85477130 KIP-312: Add Overloaded StreamsBuilder Build Method to Accept java.util.Properties
+85477152 Release Plan 1.0.2
+85477159 Release Plan 0.11.0.3
+85477194 Release Plan 0.10.2.2
+85477350 KIP-314: KTable to GlobalKTable Bi-directional Join
+85477485 KIP-313: Add KStream.flatTransform and KStream.flatTransformValues
+85477949 Release Plan 1.1.1
+85478804 KIP-315: Stream Join Sticky Assignor
+85478812 Old controller request queue design
+85479220 KIP-316: Command-line overrides for ConnectDistributed worker properties
+85479936 KIP-317: Add end-to-end data encryption functionality to Apache Kafka
+87295285 KIP-321: Update TopologyDescription to better represent Source and Sink Nodes
+87295307 KIP-318: Make Kafka Connect Source idempotent
+87295385 KIP-319: Replace segments with segmentInterval in WindowBytesStoreSupplier
+87295403 KIP-320: Allow fetchers to detect and handle log truncation
+87295409 KIP-328: Ability to suppress updates for KTables
+87295558 KIP-322: Return new error code for DeleteTopics API when topic deletion disabled.
+87296040 KIP-326: Schedulable KTable as Graph source
+87296149 KIP-324: Add method to get metrics() in AdminClient
+87296307 KIP-327: Add describe all topics API to AdminClient
+87296324 KIP-325: Extend Consumer Group Command to Show Beginning Offsets
+87296557 KIP-330: Add retentionPeriod in SessionBytesStoreSupplier
+87297150 KIP-331 Add default implementation to close() and configure() for Serializer, Deserializer and Serde
+87297159 KIP-332: Update AclCommand to use AdminClient API
+87297702 KIP-333: Add faster mode of rebalancing
+87297793 KIP-334 - Include partitions in exceptions raised during consumer record deserialization/validation
+87298200 KIP-335: Consider configurations for KafkaStreams
+87298242 KIP-336: Consolidate ExtendedSerializer/Serializer and ExtendedDeserializer/Deserializer
+87298542 KIP-338 Support to exclude the internal topics in kafka-topics.sh command
+87298616 KIP-339: Create a new IncrementalAlterConfigs API
+87298631 KIP-340: Allow kafka-reassign-partitions.sh and kafka-log-dirs.sh to take admin client property file
+87298939 KIP-341: Update Sticky Assignor's User Data Protocol
+87299392 KIP-342: Add support for Custom SASL extensions in OAuthBearer authentication
+87299961 KIP-343: Add a Controller Heartbeat Mechanism
+87300051 KIP-344: The auto-generated client id should be passed to MetricsReporter
+87300241 KIP-345: Introduce static membership protocol to reduce consumer rebalances
+89064847 Reporting Issues in Apache Kafka
+89064875 KIP-346 - Improve LogCleaner behavior on error
+89064970 KIP-347:  Enable batching in FindCoordinatorRequest
+89065853 KIP-348 Deprecate null from SourceTask#poll()
+89066078 KIP-349: Priorities for Source Topics
+89066300 KIP-350: Allow kafka-topics.sh to take brokerid as parameter to show partitions associated with it
+89066322 KIP-351: Add --under-min-isr option to describe topics command
+89066367 KIP-352: Distinguish URPs caused by reassignment
+89066476 KIP-353: Improve Kafka Streams Timestamp Synchronization
+89067546 KIP-354: Add a Maximum Log Compaction Lag
+89068080 KIP-356: Add withCachingDisabled() to StoreBuilder
+89068275 KIP-356: Add KafkaConsumer fetch-error-rate and fetch-error-total metrics
+89068320 KIP-358: Migrate Streams API to Duration instead of long ms times
+89068332 KIP-357:  Add support to list ACLs per principal
+89068549 KIP-363: Allow performance tools to print final results to output file
+89068660 KIP-359: Verify leader epoch in produce requests
+89068820 KIP-360: Improve reliability of idempotent/transactional producer
+89068981 KIP-368: Allow SASL Connections to Periodically Re-Authenticate
+89069031 KIP-362: Support dynamic gap session window
+89069313 KIP-361: Add Consumer Configuration to Disable Auto Topic Creation
+89069733 KIP-366: Make FunctionConversions deprecated
+89069740 KIP-364: Remove implicit Materialized, Consumed and Produced
+89069980 KIP-365: Materialized, Serialized, Joined, Consumed and Produced with implicit Serde
+89070496 KIP-367 Introduce close(Duration) to Producer and AdminClient instead of close(long, TimeUnit)
+89070828 KIP-369: Alternative Partitioner to Support "Always Round-Robin" Selection
+89071641 KIP-370: Remove Orphan Partitions
+89071740 KIP-371: Add a configuration to build custom SSL principal name
+89071773 KIP-354: Time-based log compaction policy
+91554044 Release Plan 2.1.0 (Nov 2018)
+91554458 KIP-372: Naming Repartition Topics for Joins and Grouping
+93323580 KIP-378: Enable Dependency Injection for Kafka Streams handlers
+93324147 KIP-373: Allow users to create delegation tokens for other users
+93324310 KIP-374: Add '--help' option to all available Kafka CLI commands
+93324778 OLD KIP-375: TopicCommand to use AdminClient
+93325020 KIP-375: Kafka Clients - make Metadata#TOPIC_EXPIRY_MS configurable
+93325308 KIP-376: Implement AutoClosable on appropriate classes that want to be used in a try-with-resource statement
+93325630 KIP-377: TopicCommand to use AdminClient
+94797868 Incremental Cooperative Rebalancing: Support and Policies
+94797935 KIP-379: Multiple Consumer Group Management
+94798401 Incremental Cooperative Rebalancing for Streams
+95649890 Kafka Stream
+95650302 KIP-380: Detect outdated control requests and bounced brokers using broker generation
+95650373 how to add correlation rule in Metron?
+95650409 KIP-381: Connect: Tell about records that had their offsets flushed in callback
+95650722 KIP-382: MirrorMaker 2.0
+95651485 Release Plan 2.0.1
+95651674 A350 DevOps Status
+95651679 New One
+95651733 KIP-383:  Pluggable interface for SSL Factory
+95652039 Journey-Pages
+95652040 My Page
+95652041 My Page2
+95652117 KIP-384: Add config for incompatible changes to persistent metadata
+95652250 KIP-385: Avoid throwing away prefetched data
+95652345 KIP-386: Standardize on Min/Avg/Max metrics' default value
+95653762 KIP-392: Allow consumers to fetch from closest replica
+95654286 KIP-387: Fair Message Consumption Across Partitions in KafkaConsumer
+95654317 KIP-388: Add observer interface to record request and response
+95655323 KIP-400: Improve exit status in case of errors in ConsoleProducer
+97550506 KIP-389: Introduce a configurable consumer group size limit
+97550583 KIP-390: Support Compression Level
+97551013 KIP-391: Allow Producing with Offsets for Cluster Replication [Discarded]
+97551449 KIP-393: Time windowed serde to properly deserialize changelog input topic
+97551484 KIP-396: Add Reset/List Offsets Operations to AdminClient
+97551555 KIP-394: Require member.id for initial join group request
+97552151 KIP-395: Encypt-then-MAC Delegation token metadata
+97552200 KIP-397: Add methods to override fetch offsets based on timestamp
+97552380 KIP-398: Support reading trust store from classpath
+97552711 KIP-399: Extend ProductionExceptionHandler to cover serialization exceptions
+97553756 KIP-401: TransformerSupplier/ProcessorSupplier StateStore connecting
+97553944 KIP-402: Improve fairness in SocketServer processors
+97554055 KIP-403: Increase ProducerPerformance precision by using nanoTime
+97554233 KIP-404: Add Kafka Connect configuration parameter for disabling WADL output on OPTIONS request
+97554472 KIP-405: Kafka Tiered Storage
+97554598 KIP-416: Notify SourceTask of ACK'd offsets, metadata
+97554704 KIP-406: GlobalStreamThread should honor custom reset policy
+97554780 KIP-407: Kafka Connect support override worker kafka api configuration with connector configuration that post by rest api
+97554920 KIP-NEXT: Add support of quota configuration in the KafkaAdminClient
+97554942 KIP-408: Add Asynchronous Processing To Kafka Streams
+97555007 KIP-409: Allow creating under-replicated topics and partitions
+97555418 KIP-410: Add metric for request handler thread pool utilization by request type
+97555474 KIP-411: Make default Kafka Connect worker task client IDs distinct
+97555704 KIP-422: Add support for client quota configuration in the Kafka Admin Client
+99844527 Kafka APIs
+100827512 Release Plan 2.2.0 (Feb 2019)
+100827519 KIP-412: Extend Admin API to support dynamic application log levels
+100827546 KIP-414: Expose Embedded ClientIds in Kafka Streams
+100828003 KIP-415: Incremental Cooperative Rebalancing in Kafka Connect
+100828525 Release Plan 2.1.1
+100828568 KIP-417: Allow JmxTool to connect to a secured RMI port
+100829036 KIP-418: A method-chaining way to branch KStream
+100829273 KIP-419: Safely notify Kafka Connect SourceTask is stopped
+100829316 KIP-420: Add Single Value Fetch in Session Stores
+100829459 KIP-706: Add method "Producer#send" to return CompletionStage instead of Future
+100829496 KIP-531: Drop support for Scala 2.11 in Kafka 2.5
+100829515 KIP-421: Automatically resolve external configurations.
+100829917 KIP-XXX: [Streams] Support multiple topic resolution in TopicNameExtractor
+100829939 KIP-424: Allow suppression of intermediate events based on wall clock time
+100833315 KIP-423: Add JoinReason to Consumer Join Group Protocol
+103088923 KIP-425: Add some Log4J Kafka Appender Properties for Producing to Secured Brokers
+103089124 KIP-426: Persist Broker Id to Zookeeper
+103089384 KIP-428: Add in-memory window store
+103089398 KIP-427: Add AtMinIsr topic partition category (new metric & TopicCommand option)
+103090108 KIP-429: Kafka Consumer Incremental Rebalance Protocol
+103090207 KIP-430 - Return Authorized Operations in Describe Responses
+103090995 KIP-431: Support of printing additional ConsumerRecord fields in DefaultMessageFormatter
+103091238 KIP-432: Additional Broker-Side Opt-In for Default, Unsecure SASL/OAUTHBEARER Implementation
+103091409 KIP-433: Block old clients on brokers
+103091484 KIP-434: Add Replica Fetcher and Log Cleaner Count Metrics
+103091498 KIP-435: Internal Partition Reassignment Batching
+103091646 KIP-436: Add a metric indicating start time
+103092281 KIP-437: Custom replacement for MaskField SMT
+103093037 KIP-438: Expose task, connector IDs in Connect API
+103093950 KIP-447: Producer scalability for exactly once semantics
+103094198 KIP-439: Cleanup built-in Store interfaces
+103095998 KIP-440: Extend Connect Converter to support headers
+103100114 KIP-441: Smooth Scaling Out for Kafka Streams
+109451332 KIP-446: Add changelog topic configuration to KTable suppress
+109454292 KIP-442: Return to default max poll interval in Streams
+109454306 KIP-443: Return to default segment.ms and segment.index.bytes in Streams repartition topics
+109455370 KIP-444: Augment metrics for Kafka Streams
+109455886 KIP-445: In-memory Session Store
+110692168 KIP-448: Add State Stores Unit Test Support to Kafka Streams Test Utils
+110692374 KIP-449: Add connector contexts to Connect worker logs
+110693020 KIP-450: Sliding Window Aggregations in the DSL
+110694793 KIP-451: Make TopologyTestDriver output iterable
+110695850 KIP-452: Tool to view cluster status
+110696002 KIP-453: Add close() method to RocksDBConfigSetter
+110696481 KIP-454: Expansion of the ConnectClusterState interface
+112820260 KIP-455: Create an Administrative API for Replica Reassignment
+112820385 KIP-456: Helper classes to make it simpler to write test logic with TopologyTestDriver
+112820414 KIP-457: Add DISCONNECTED status to Kafka Streams
+112820648 Release Plan 2.3.0 (June 2019)
+112821105 KIP-458: Connector Client Config Override Policy
+113707159 KIP-459: Improve KafkaStreams#close
+113707931 KIP-460: Admin Leader Election RPC
+113708007 Release Plan 2.2.1
+113708143 KIP-461 - Improve Replica Fetcher behavior at handling partition failure
+113708185 KIP-462: Use local thread id for KStreams
+113708199 KIP-463: Auto-configure non-default Serdes passed alongside the TopologyBuilder
+113708722 KIP-464: Defaults for AdminClient#createTopic
+113708951 KIP-465: Add Consolidated Connector Endpoint to Connect REST API
+113708957 KIP-307 implementation tracking
+113709109 KIP-466: Add support for List<T> serialization and deserialization
+113709804 KIP-467: Augment ProduceResponse error messaging for specific culprit records
+115510686 KIP-468: Avoid decompression of record when validate record  at server in the scene of inPlaceAssignment .
+115511205 KIP-469: Pre-registration support for static members
+115511220 KIP-470: TopologyTestDriver test input and output usability improvements
+115511811 KIP-471: Expose RocksDB Metrics in Kafka Streams
+115513262 KIP-472: [STREAMS] Add partition time field to RecordContext
+115526350 KIP-473: Enable KafkaLog4JAppender to use SASL Authentication Callback Handlers
+115526545 KIP-474: To deprecate WindowStore#put(key, value)
+115528421 KIP-475: New Metrics to Measure Number of Tasks on a Connector
+115529047 KIP-476: Add Java AdminClient Interface
+115529924 Dynamically Adjust Log Levels in Connect
+118171519 KIP-477: Add PATCH method for connector config in Connect REST API
+118172121 KIP-478 - Strongly typed Processor API
+119542032 KIP-479: Add StreamJoined config object to Join
+120722025 KIP-480: Sticky Partitioner
+120722050 KIP-481: SerDe Improvements for Connect Decimal type in JSON
+120722234 KIP-482: The Kafka Protocol should Support Optional Tagged Fields
+120722255 KIP-483:  Add Broker Version API in Admin Client
+120722282 KIP-484: Expose metrics for group and transaction metadata loading duration
+120722411 KIP-497: Add inter-broker API to alter ISR
+120722694 KIP-485: Make topic optional when using through() operations in DSL
+120723968 KIP-486: Support custom way to load KeyStore and TrustStore
+120730990 KIP-487: Client-side Automatic Topic Creation on Producer
+120733842 KIP-488: Clean up Sum,Count,Total Metrics
+120733846 489: Kafka Consumer Record Latency Metric
+120734020 KIP-490: New metric to count offsets expired without being consumed by a consumer group
+120736982 KIP-491: Preferred Leader Deprioritized List (Temporary Blacklist)
+120738008 KIP-492: Add java security providers in Kafka Security config
+120740150 KIP-494: Connect REST Endpoint to get Transformations (SMTs)
+122915839 KIP-495: Dynamically Adjust Log Levels in Connect
+122915859 KIP-496: Administrative API to delete consumer offsets
+122917442 KIP-498: Add client-side configuration for maximum response size to protect against OOM
+123898922 KIP-500: Replace ZooKeeper with a Self-Managed Metadata Quorum
+123899105 KIP-501 Avoid out-of-sync or offline partitions when follower fetch requests are not processed in time
+123899170 KIP-499 - Unify connection name flag for command line tool
+123899968 KIP-502: Connect Task Method Signature to be More Specific for Developers
+123900176 KIP-503: Add metric for number of topics marked for deletion
+123900353 KIP-504 - Add new Java Authorizer Interface
+123900879 KIP-505: Add new public method to only update assignment metadata in consumer
+123900943 KIP-506: Allow setting SCRAM password via Admin interface
+125307901 Release Plan 2.4.0 (Oct 2019)
+125308107 KIP-507: Securing Internal Connect REST Endpoints
+125308960 KIP-508: Make Suppression State Queriable
+125309347 KIP-509: Rebalance and restart Producers
+125309571 KIP-510: Metrics library upgrade
+125309609 KIP-511: Collect and Expose Client's Name and Version in the Brokers
+125310081 KIP-513: Distinguish between Key and Value serdes in scala wrapper library for kafka streams
+125310116 KIP-512: make Record Headers available in onAcknowledgement
+126684228 KIP-532: Broker Consumer Lag metrics in size and time
+127405237 KIP-514: Add a bounded flush() API to Kafka Producer
+127405578 KIP-515: Enable ZK client to use the new TLS supported authentication
+127406006 KIP-534: Retain tombstones and transaction markers for approximately delete.retention.ms milliseconds
+127406437 KIP-516: Topic Identifiers
+127406453 KIP-517: Add consumer metrics to observe user poll behavior
+127406763 Optimize Windowed Aggregation
+127406923 Release Plan 2.3.1
+128650428 KIP-518: Allow listing consumer groups per state
+128650952 KIP-519: Make SSL context/engine configuration extensible
+128651203 KIP-520: Add overloaded Consumer#committed for batching partitions
+128651471 KIP-521: Enable redirection of Connect's log4j messages to a file by default
+128651628 Release Plan 2.2.2
+128651644 KIP-522: Update BrokerApiVersionsCommand to use AdminClient
+128651808 KIP-523: Add KStream#toTable to the Streams DSL
+128651860 KIP-524: Allow users to choose config source when describing configs
+128651946 KIP-525 - Return topic metadata and configs in CreateTopics response
+128652578 KIP-526: Reduce Producer Metadata Lookups for Large Number of Topics
+130026461 KIP-527: Add VoidSerde to Serdes
+130026503 KIP-528: Deprecate PartitionGrouper configuration and interface
+130026601 Kafka Client Jars Upgrade
+130028807 KIP-530: Consider renaming 'UsePreviousTimeOnInvalidTimeStamp' class to  'UsePartitionTimeOnInvalidTimeStamp'
+130028871 Semi-Automated Bash Script to generate TLS Certs and Keys
+132320622 KIP-533: Add default api timeout to AdminClient
+132320686 KIP-X: Introduce a cooperative consumer processing semantic
+132321118 KIP-535: Allow state stores to serve stale reads during rebalance
+132321261 KIP-536: Propagate broker start time to Admin API
+132321373 KIP-537: Increase default zookeeper session timeout
+132322231 KIP-538: Add a metric tracking the number of open connections with a given SSL cipher type
+133630928 KIP-539: Implement mechanism to flush out records in low traffic suppression buffers
+133631140 KIP-540: Implement per key stream time tracking
+133631714 KIP-541: Create a fetch.max.bytes configuration for the broker
+133631864 KIP-542: Partition Reassignment Throttling
+133631939 KIP-543: Expand ConfigCommand's non-ZK functionality
+133631964 DSL Optimizer
+133631990 KIP-544: Make metrics exposed via JMX configurable
+133632115 KIP-545: support automated consumer offset sync across clusters in MM 2.0
+134745187 KIP-XX: Decouple Kafka Streams Scalability from Physical partition
+134745533 KIP-546: Add Client Quota APIs to the Admin Client
+135861476 KIP-547: Extend ConsumerInterceptor to allow modification of Consumer Commits
+135862155 KIP-548 Add Option to enforce rack-aware custom partition reassignment execution
+135862571 KIP-549: Surface Consumer's Metadata in KafkaAdminClient#describeConsumerGroups
+138022213 KIP-564: Add new cached authorizer:change the dim of cache
+138022222 KIP-565: Using AclCommand,avoid call the global method loadcache in SimpleAclAuthorizer
+138022281 KIP-550: Mechanism to Delete Stray Partitions on Broker
+139627442 KIP-551: Expose disk read and write metrics
+141724783 KIP-561: Regex Support for ConsumerGroupCommand
+142641934 KIP-552: Suppress "unused config" warning
+142641956 KIP-553: Disable all SSL protocols except TLSV1.2 by default.
+143428858 Release Plan 2.5.0 (Feb 2020)
+144510511 Kafka Streams DSL Grammar
+144510554 KIP-555: Deprecate Direct Zookeeper access in Kafka Administrative Tools
+144510692 KIP-557: Add emit on change support for Kafka Streams
+144511121 KIP-558: Track the set of actively used topics by connectors in Kafka Connect
+144511170 KIP-559: Make the Kafka Protocol Friendlier with L7 Proxies
+144511429 KIP-560: Auto infer external topic partitions in stream reset tool
+145722102 Kafka Streams KIP Overview
+145722433 KIP-562: Allow fetching a key from a single partition rather than iterating over all the stores on an instance
+145722670 KIP-563: Add 'tail -n' feature for ConsoleConsumer
+145722808 Start Apache Kafka In Debug Mode (Eclipse Scala)
+145723203 KIP-567: Kafka Cluster Audit
+145723320 KIP-566: Add rebalance callbacks to ConsumerInterceptor
+145723429 KIP-568: Support RPC message type 'double'
+145724506 Release Plan 2.4.1
+145724879 KIP-569: DescribeConfigsResponse - Update the schema to include additional metadata information of the field
+145724899 KIP-DRAFT: Handle errors for data inside put method of a sink connector
+147426088 KIP-568: Explicit rebalance triggering on the Consumer
+147426536 KIP-570: Add leader epoch in StopReplicaRequest
+147427056 KIP-571: Add option to force remove members in StreamsResetter
+148638436 KIP-572: Improve timeouts and retries in Kafka Streams
+148638811 KIP-573: Enable TLSv1.3 by default
+148639530 KIP-574: CLI Dynamic Configuration with file input
+148640523 KIP-575: build a Kafka-Exporter by Java
+148641018 KIP-576: Support dynamic update of more broker configs related to replication
+148641509 KIP-578: Add configuration to limit number of partitions
+148641785 KIP 577: Allow HTTP Response Headers to be Configured for Kafka Connect
+148641915 KIP-579: new exception on min.insync.replicas > replication.factor
+148641955 KIP-580: Exponential Backoff for Kafka Clients
+148642549 KIP-581: Value of optional null field which has default value
+148642648 KIP-583: add tag "partition" to BrokerTopicMetrics so as to observe the partition metrics on the same broker
+148642653 KIP-582: Add a "continue" option for Kafka Connect error handling
+148643048 KIP-584: Versioning scheme for features
+148643582 KIP-585: Filter and Conditional SMTs
+148644873 KIP-: Broker Registration Mechanism
+148645282 KIP-586: Deprecate commit records without record metadata
+148645452 KIP-587: Suppress detailed responses for handled exceptions in security-sensitive environments
+148645469 KIP-588: Allow producers to recover gracefully from transaction timeouts
+148645682 KIP-589 Add API to update Replica state in Controller
+148645751 KIP-590: Redirect Zookeeper Mutation Protocols to The Controller
+148646776 KIP-591: Add Kafka Streams config to set default state store
+148646954 KIP-592: MirrorMaker 1.0 should replicate topics from earliest
+148647273 KIP-593: Enable --if-exists and --if-not-exists for AdminClient in TopicCommand
+148647301 KIP-596: Safely abort Producer transactions during application shutdown
+148647388 KIP-594: Expose output topic names from TopologyTestDriver
+148647470 KIP-595: A Raft Protocol for the Metadata Quorum
+148647854 KIP-597: MirrorMaker2 internal topics Formatters
+148648459 KIP-602: Change default value for client.dns.lookup
+148648680 KIP-599: Throttle Create Topic, Create Partition and Delete Topic Operations
+148648762 KIP-598: Augment TopologyDescription with store and source / sink serde information
+152111839 KIP-601: Configurable socket connection timeout in NetworkClient
+152112903 KIP-603: Change `ConfigEntry` value to use optional fields
+152113040 KIP-xxx: Cache the UpdateMetadata requests in controller
+152113297 KIP-604: Remove ZooKeeper Flags from the Administrative Tools
+152113430 Release Plan 2.6.0 (June 2020)
+152113459 KIP-605: Expand Connect Worker Internal Topic Settings
+152113546 KIP-554: Add Broker-side SCRAM Config API
+152113739 KIP-606: Add Metadata Context to MetricsReporter
+152114341 KIP-607: Add Metrics to Kafka Streams to Report Properties of RocksDB
+152114380 KIP-608 - Expose Kafka Metrics in Authorizer
+152114416 KIP-609: Use Pre-registration and Blocking Calls for Better Transaction Efficiency
+152114660 KIP-610: Error Reporting in Sink Connectors
+152114962 KIP-611: Improved Handling of Abandoned Connectors and Tasks
+152115302 KIP-612: Ability to Limit Connection Creation Rate on Brokers
+152115584 KIP-613: Add end-to-end latency metrics to Streams
+152115626 KIP-614: Add Prefix Scan support for State Stores
+153815834 KIP-615: add ConstrainedCooperativeStickyAssignor
+153816406 KIP-618: Exactly-Once Support for Source Connectors
+153816723 KIP-616: Rename implicit Serdes instances in kafka-streams-scala
+153816927 KIP-617: Allow Kafka Streams State Stores to be iterated backwards
+155749118 KIP-620 Deprecate ConsumerConfig#addDeserializerToConfig and ProducerConfig#addSerializerToConfig
+155749467 KIP-619: Add internal topic creation support
+155749802 Release Plan 2.5.1
+158862109 KIP-621: Deprecate and replace DescribeLogDirsResult.all() and .values()
+158862177 KIP-623: Add "internal-topics" option to streams application reset tool
+158862246 KIP-622: Add currentSystemTimeMs and currentStreamTimeMs to ProcessorContext
+158863168 KIP-624: Consolidate Offset Validation into Fetch Protocol
+158863352 KIP-625: Richer encodings for integral-typed protocol fields
+158863488 KIP-626: Rename StreamsConfig config variable name
+158863685 KIP-627: Expose Trogdor-specific JMX Metrics for Tasks and Agents
+158863964 KIP-628: ConsumerPerformance's multi-thread implementation
+158864335 KIP-629: Use racially neutral terms in our codebase
+158864763 KIP-630: Kafka Raft Snapshot
+158864865 KIP-631: The Quorum-based Kafka Controller
+158865058 KIP-640: Add log compression analysis tool
+158865404 KIP-632: Add DirectoryConfigProvider
+158865524 KIP-634: Complementary support for headers and record metadata in Kafka Streams DSL
+158865802 KIP-636: Make RPC error codes and messages tagged fields
+158866065 KIP-637: Include min.insync.replicas in MetadataResponse to make Producer smarter in partitioning events
+158866169 KIP-638: Deprecate DescribeLogDirsResponse.[LogDirInfo, ReplicaInfo]
+158866205 KIP-639: Move nodeLevelSensor and storeLevelSensor methods from StreamsMetricsImpl to StreamsMetrics
+158866569 KIP-641 An new java interface to replace 'kafka.common.MessageReader'
+158867064 KIP-642: Dynamic quorum reassignment
+158867701 KIP-644: Support sources which can't give out changed data in kafka connect
+158868265 KIP-450 Implementation
+158868306 Aggregation details for KIP-450
+158868457 KIP-645: Replace Windows with a proper interface
+158868550 KIP-646 Serializer API should support ByteBuffer
+158868839 KIP-647: Add ability to handle late messages in streams-aggregation
+158869439 KIP-648: Renaming getter method for Interactive Queries
+158869615 KIP-649: Dynamic Client Configuration
+158869788 KIP-650: Enhance Kafkaesque Raft semantics
+158870065 KIP-656: MirrorMaker2 Exactly-once Semantics
+158870088 KIP-651 - Support PEM format for SSL certificates and private key
+158870552 KIP-653: Upgrade log4j to log4j2
+158870787 KIP-654: Aborted transaction with non-flushed data should throw a non-fatal exception
+158870827 KIP-655: Windowed Distinct Operation for Kafka Streams API
+158871770 KIP-657: Add Customized Kafka Streams Logo
+158872316 [DISCARD] KIP-658 Deprecate all setters of Headers
+158872629 Release Plan 2.7.0 (Nov 2020)
+158872680 KIP-659: Improve TimeWindowedDeserializer and TimeWindowedSerde to handle window size
+158872837 KIP-660: Pluggable ReplicaPlacer
+158872856 KIP-661: Expose task configurations in Connect REST API
+158873024 KIP-662: Throw Exception when Source Topics of a Streams App are Deleted
+158873364 KIP-663: API to Start and Shut Down Stream Threads
+158873417 KIP-664: Provide tooling to detect and abort hanging transactions
+158874091 KIP-665: Kafka Connect Hash SMT
+158874295 KIP-666: Add Instant-based methods to ReadOnlySessionStore
+158874296 KIP-667: Remove deprecated methods from ReadOnlyWindowStore
+158874971 KIP-668: Expose REST endpoint to list converter plugins
+158875106 KIP-669: Preserve Source Partition in Kafka Streams from context
+158875263 KIP-670: Add ConsumerGroupCommand to delete static members
+158875718 KIP-567: Kafka Cluster Audit - Original Version
+158876566 KIP-671: Introduce Kafka Streams Specific Uncaught Exception Handler
+158877542 Release Plan 2.6.1
+158877732 KIP-672: Introduce Kafka Streams Specific Uncaught Exception Handler
+158878582 KIP-673: Emit JSONs with new auto-generated schema
+158879114 KIP-674: Metric Reporter to Aggregate Metrics in Kafka Streams
+165219820 KIP-675: Convert KTable to a KStream using the previous value
+165220041 KIP-676: Respect logging hierarchy
+165221689 KIP-677: migrating Topology methods to the Builder pattern (WIP)
+165221843 KIP-679: Producer will enable the strongest delivery guarantee by default
+165222326 KIP-678: New Kafka Connect SMT for plainText => Struct(or Map) with Regex
+165223728 KIP-680: TopologyTestDriver should not require a Properties argument
+165224355 KIP-682: Connect TimestampConverter support for multiple fields and multiple input formats
+165224366 KIP-681: Rename master key in delegation token feature
+165224509 KIP-683: Add recursive support to Connect Cast and ReplaceField transforms, and support for casting complex types to either a native or JSON string
+165224608 KIP-684 - Support mutual TLS authentication on SASL_SSL listeners
+165224794 KIP-685: Loosen permission for listing reassignments
+165225586 KIP-686: API to ensure Records policy on the broker
+165225765 KIP-695: Further Improve Kafka Streams Timestamp Synchronization
+165226266 KIP-NEXT: Support dynamic update of delete.topic.enable config
+165226301 KIP-691: Enhance Transactional Producer Exception Handling
+165226391 KIP-687: Automatic Reloading of Security Store
+165226521 KIP-688: Support dynamic update of delete.topic.enable config
+165226988 KIP-698: Add Explicit User Initialization of Broker-side State to Kafka Streams
+165227023 KIP-689: Extend `StreamJoined` to allow more store configs
+165227180 KIP-690: Add additional configuration to control MirrorMaker 2 internal topics naming convention
+165227379 KIP-694: Support Reducing Partitions for Topics
+165227412 KIP-696: Update Streams FSM to clarify ERROR state meaning
+165227521 KIP-692: Make AdminClient value object constructors public
+165227585 KIP-693: Client-side Circuit Breaker for Partition Write Errors
+170265528 KIP-X: Native TopK support in Kafka Streams
+170265745 KIP-697: Stricter parsing of addresses in configs
+170266022 KIP-699: Update FindCoordinator to resolve multiple Coordinators at a time
+170266253 KIP-700: Add Describe Cluster API
+170267222 KIP-701: Add--override option to bin/connect-distributed.sh
+173081512 KIP-702: The control plane needs to force the validation of requests from the controller
+173081737 Release Plan 2.8.0 (April 2021)
+173081970 KIP-703: Add a metrics for reporting idle connections closed
+173082256 KIP-704: Send a hint to the partition leader to recover the partition
+173082556 KIP-705: Selectively Disable Topology Optimizations
+173084017 KIP-707: The future of KafkaFuture
+173084241 KIP-708: Rack aware StandbyTask assignment for Kafka Streams
+173084258 KIP-709: Extend OffsetFetch requests to accept multiple group ids.
+173084386 KIP-710: Full support for distributed mode in dedicated MirrorMaker 2.0 clusters
+173084644 Release Plan 2.6.2
+173085406 KIP-711 Deprecate org.apache.kafka.streams.errors.BrokerNotFoundException
+173085646 KIP-712: Shallow Mirroring
+173085791 KIP-713: Validation of Enums in configuration
+173085801 KIP-715: Expose Committed offset in streams
+173085915 KIP-714: Client metrics and observability
+173086863 Release Plan 2.7.1
+173087775 KIP-716: Allow configuring the location of the offset-syncs topic with MirrorMaker2
+173088012 KIP-717: Deprecate batch-size config from console producer
+173088038 A program for dynamically alter log4j levels at runtime.
+173088063 KIP-718: Make KTable Join on Foreign key unopinionated
+177045548 KIP-719: Deprecate Log4J Appender
+177046121 KIP-720: Deprecate MirrorMaker v1
+177046466 Release Plan 3.0.0
+177047362 Changing Defaults in Connect 3.0.0
+177047379 KIP-721: Enable connector log contexts in Connect Log4j configuration
+177047383 KIP-722: Enable connector client overrides by default
+177047493 KIP-723: Add socket.tcp.no.delay property to Kafka Config
+177047878 KIP-724: Drop support for message formats v0 and v1
+177047930 KIP-725: Streamlining configurations for WindowedSerializer and WindowedDeserializer.
+177048248 KIP-726: Make the "cooperative-sticky, range" as the default assignor
+177048424 KIP-727: Add --under-preferred-replica-partitions option to describe topics command
+177048637 KIP-728: Introduce the RESTORING state to the KafkaStreams state machine
+177048862 KIP-633: Deprecate 24-hour Default Grace Period for Windowed Operations in Streams
+177048936 KIP-729: Custom validation of records on the broker prior to log append
+177049344 KIP-730: Producer ID generation in KRaft mode
+177049958 KIP-731: Record Rate Limiting for Kafka Connect
+177050572 KIP-732: Deprecate eos-alpha and replace eos-beta with eos-v2
+177050750 KIP-733: change Kafka Streams default replication factor config
+177050893 KIP-734: Improve AdminClient.listOffsets to return timestamp and offset for the record with the largest timestamp
+177051635 KIP-735: Increase default consumer session timeout
+177052350 KIP-736: Report the true end to end fetch latency
+181305561 KIP-738: Removal of Connect's internal converter properties
+181306178 KIP-737: Add canTrackSource to ReplicationPolicy
+181306344 KIP-747 Add support for basic aggregation APIs
+181306446 KIP-739: Block Less on KafkaProducer#send
+181306557 KIP-740: Clean up public API in TaskId
+181306840 KIP-213-Scratch
+181306988 KIP-741: Change default serde to be null
+181307320 KIP-743: Remove config value 0.10.0-2.4 of Streams built-in metrics version config
+181307959 KIP-748: Add Broker Count Metrics
+181307996 KIP-744: Migrate TaskMetadata and ThreadMetadata to an interface with internal implementation
+181308218 KIP-751: Drop support for Scala 2.12 in Kafka 4.0 (deprecate in 3.0)
+181308223 KIP-750: Drop support for Java 8 in Kafka 4.0 (deprecate in 3.0)
+181308623 KIP-745: Connect API to restart connector and tasks
+181308639 KIP-746: Revise KRaft Metadata Records
+181309123 KIP-749: Add --files and --file-separator options to the ConsoleProducer
+181309271 KIP-752: Support --bootstrap-server in ReplicaVerificationTool
+181309386 KIP-753:  ACL authentication, Host field support IP network segment
+181309598 KIP-754: Make Scala case class's final
+181309676 KIP-755: Add new AUTO_CREATE ACL for auto topic creation
+181309698 KIP-756: Move StreamsResetter tool outside of core
+181310739 KIP-757:  Topic metadata
+181311476 KIP-758: Remove list of latest producer append information for broker
+184615014 KIP-759: Unneeded repartition canceling
+184616291 KIP-760: Minimum value for segment.ms and segment.bytes
+184616380 KIP-761: Add Total Blocked Time Metric to Streams
+184617147 KIP-762: Delete Committed Connect Records
+184617612 KIP-763: Range queries with open endpoints
+184618056 KIP-764: Configurable backlog size for creating Acceptor
+184618310 KIP-765: Introduce new SlidingWindow type for [start,end] time
+186876596 KIP-766: fetch/findSessions queries with open endpoints for SessionStore/WindowStore
+186877135 KIP-767: Connect Latency Metrics
+186877427 Release Plan 2.8.1
+186877575 KIP-768: Extend SASL/OAUTHBEARER with Support for OIDC
+186878108 KIP-769: Connect APIs to list all connector plugins and retrieve their configuration definitions
+186878390 KIP-770: Replace "buffered.records.per.partition" & "cache.max.bytes.buffering" with "{statestore.cache}/{input.buffer}.max.bytes"
+188743985 KIP 771: KRaft brokers without the "controller" role should not expose controller metrics
+188744286 KIP-772: Encrypt KRaft Metadata Secrets at Rest
+188744551 KIP-773: Differentiate consistently metric latency measured in millis and nanos
+188745348 KIP-774: Deprecate public access to Admin client's *Result constructors
+188745981 KIP-775: Custom partitioners in foreign key joins
+188746244 KIP-776: Add Consumer#peek for debugging/tuning
+188746798 KIP-777: Improved testability for Admin client
+188746825 Release Plan 3.1.0
+188746840 KIP-778: KRaft to KRaft Upgrades
+191333193 KIP-779: Allow Source Tasks to Handle Producer Exceptions
+191333494 Release Plan 2.6.3
+191333498 Release Plan 2.7.2
+191333738 KIP-780: Support fine-grained compression options
+191333911 KIP-781: Improve MirrorMaker2's client configuration
+191334590 KIP-782: Expandable batch size in producer
+191334731 KIP-786: Emit Metric Client Quota Values
+191334740 KIP-783: Add TaskId field to StreamsException
+191334821 KIP-784: Add top-level error code field to DescribeLogDirsResponse
+191334838 KIP-785: Automatic storage formatting
+191335433 KIP-789: Use localhost:9092 as default bootstrap-server/broker-list in client tools
+191335620 KIP-787: MM2 manage Kafka resources with custom Admin implementation.
+191335647 KIP-796: Interactive Query v2
+191335815 KIP-788: Allow configuring num.network.threads per listener
+191336483 KIP-791: Add Record Metadata to State Store Context
+191336614 KIP-792: Add "generation" field into consumer protocol
+191336830 KIP-793: Allow sink connectors to be used with topic-mutating SMTs
+191336857 KIP-794: Strictly Uniform Sticky Partitioner
+191337127 KIP-795: Add public APIs for AbstractCoordinator
+195726330 KIP-797: Accept duplicate listener on port for IPv4/IPv6
+195726359 KIP-798: Add possibility to write kafka headers in Kafka Console Producer
+195726424 KIP-799: Align behaviour for producer callbacks with documented behaviour
+195726457 KIP-800: Add reason to JoinGroupRequest and LeaveGroupRequest
+195728007 KIP-801: Implement an Authorizer that stores metadata in __cluster_metadata
+195728096 KIP-802: Validation Support for Kafka Connect SMT and Converter Options
+195728098 KIP-803: Add Task ID and Connector Name to Connect Task Context
+195728141 KIP-804: OfflinePartitionsCount Tagged by Topic
+195728371 KIP-805: Add range and scan query over kv-store in IQv2
+195728940 KIP-806: Add session and window query over kv-store in IQv2
+195729005 KIP-NEXT: Add lowest acknowledged offset to BrokerHeartbeatResponse
+195729486 KIP-807: Refactor KafkaStreams exposed metadata hierarchy
+195730200 KIP-808: Add support for different unix precisions in TimestampConverter SMT
+199527406 KIP-809: Support live upgrades with dynamic addition/removal of modular topologies
+199527475 KIP-810: Allow producing records with null values in Kafka Console Producer
+199528229 KIP-811: Add config repartition.purge.interval.ms to Kafka Streams
+199531305 KIP-812: Introduce another form of the `KafkaStreams.close()` API that forces the member to leave the consumer group
+199531761 KIP-815:  Support max-timestamp in GetOffsetShell
+199531947 KIP-813: Shareable State Stores
+199532299 KIP-814: Static membership protocol should let the leader skip assignment
+199533032 KIP-816: Topology changes without local state reset
+199533282 KIP-817: Fix inconsistency in dynamic application log levels
+199533354 KIP-818: Introduce cache-size-bytes-total Task Level Metric
+199533461 KIP-819: Merge multiple KStreams in one operation
+199534136 Release Plan 3.0.1
+199534280 KIP-820: Extend KStream process with new Processor API
+199534341 KIP-821: Connect Transforms support for nested structures
+199534691 Release Plan 3.2.0
+199534763 KIP-822: Optimize the semantics of KafkaConsumer#pause to be consistent between the two RebalanceProtocols
+199535603 KIP-823:  Update Admin::describeConfigs to allow fetching specific configurations
+199537400 KIP-824: Allowing dumping segmentlogs limiting the batches in the output
+199538219 Release Plan 3.1.1
+199538591 KIP-825: introduce a new API to control when aggregated results are produced
+199540897 KIP-826: Define platforms supported
+210079120 KIP-827: Expose log dirs total and usable space via Kafka API
+210079339 KIP-828: Add the corresponding validator to the configuration where the validator is missing
+210079435 KIP-829: (console-consumer) add print.topic property
+211880603 KIP-830: Allow disabling JMX Reporter
+211881195 KIP-831: Add metric for log recovery progress
+211882578 KIP-832: Allow creating a producer/consumer using a producer/consumer config
+211882739 KIP-833: Mark KRaft as Production Ready
+211882832 KIP-834: Pause / Resume KafkaStreams Topologies
+211883219 KIP-835: Monitor KRaft Controller Quorum Health
+211883237 KIP-836: Expose replication information of the cluster metadata
+211883356 KIP-837: Allow MultiCasting a Result Record.
+211883775 Release Plan 3.3.0
+211884276 [DRAFT] KIP-821: Connect Transforms support for nested structures (JsonPath-based draft)
+211884296 KIP-838 Simulate batching and compression
+211884454 KIP-841: Fenced replicas should not be allowed to join the ISR in KRaft
+211884640 KIP-839: Provide builders for KafkaProducer/KafkaConsumer and KafkaStreams
+211884652 KIP-840: Config file option for MessageReader/MessageFormatter in ConsoleProducer/ConsoleConsumer
+211885254 KIP-842: Add richer group offset reset mechanisms
+211885321 KIP-843: Adding addMetricIfAbsent method to Metrics
+211885357 KIP-844: Transactional State Stores
+211885474 KIP-845: 'HasField' predicate for kafka connect
+211886093 KIP-846: Source/sink node metrics for Consumed/Produced throughput in Streams
+217387038 KIP-848: The Next Generation of the Consumer Rebalance Protocol
+217387209 KIP-847: Add ProducerIdCount metrics
+217387947 KIP-849: Expose logdirs total and usable space via kafka-log-dirs.sh
+217388180 KIP-850: REST API for filtering Connector plugins by type
+217389402 KIP-851: Add requireStable flag into ListConsumerGroupOffsetsOptions
+217389458 KIP-852: Optimize calculation of size for log in remote tier
+217391133 Release Plan 3.2.1
+217391519 KIP-853: KRaft Controller Membership Changes
+217392092 KIP-854 Separate configuration for producer ID expiry
+217392138 KIP-855: Add schema.namespace parameter to SetSchemaMetadata SMT in Kafka Connect
+217392614 KIP-856: KRaft Disk Failure Recovery
+217392617 KIP-857: Streaming recursion in Kafka Streams
+217392620 KIP-858: Handle JBOD broker disk failure in KRaft
+217392705 KIP-NEXT: Insert Title Here
+217392707 KIP-859: Add Metadata Log Processing Error Related Metrics
+217392873 KIP-860: Add client-provided option to guard against replication factor change during partition reassignments
+217392985 KIP-862: Self-join optimization for stream-stream joins
+217393101 KIP-861: Add BytesIn/BytesOut per listener metrics
+217393224 Consumer threading refactor design
+217393296 [DRAFT]Integrating Kafka Connect With New Consumer Rebalance Protocol
+225152035 KIP-863: Reduce CompletedFetch#parseRecord() memory copy
+225152744 KIP-864: Add End-To-End Latency Metrics to Connectors
+225152849 KIP-865: Support --bootstrap-server in kafka-streams-application-reset
+225153584 KIP-868 Metadata Transactions
+225153708 KIP-866 ZooKeeper to KRaft Migration
+228494607 KIP-869: Improve Streams State Restoration Visibility
+228495087 KIP-870: Retention policy based on record event time
+228495816 KIP-871: Fix ByteBufferSerializer#serialize(String, ByteBuffer) compatible problem
+228495828 KIP-872: Add Serializer#serializeToByteBuffer() to reduce memory copying
+231115581 KIP-873: ExceptionHandlingDeserializer, RetryDeserializer, PipeSerializer, PipeDeserializer
+231115870 KIP-874: TopicRoundRobinAssignor
+231115901 KIP-879: Multi-level Rack Awareness
+231116066 KIP-875: First-class offsets support in Kafka Connect
+231116081 KIP-876: Time based cluster metadata snapshots
+231116181 KIP-877: Mechanism for plugins and connectors to register metrics
+231116316 Release Plan 3.4.0
+231116825 KIP-878: Internal Topic Autoscaling for Kafka Streams
+231117745 KIP-882: Kafka Connect REST API configuration validation timeout improvements
+231117823 KIP-880: X509 SAN based SPIFFE URI ACL within mTLS Client Certificates
+231118120 KIP-881: Rack-aware Partition Assignment for Kafka Consumers
+231118168 KIP-883: Add isDeleted flag when stopping a connector
+231118593 KIP-884: Add config to configure KafkaClientSupplier in Kafka Streams
+231118899 KIP-885: Expose Broker's Name and Version to Clients
+231118953 KIP-886: Add Client Producer and Consumer Builders
+231119063 KIP-887: Add ConfigProvider to make use of environment variables
+235834220 KIP-888: Batch describe ACLs and describe client quotas
+235834368 KIP-889: Versioned State Stores
+235834593 Release plan 3.3.2
+235834631 KIP-890: Transactions Server-Side Defense
+235834793 KIP-891: Running multiple versions of Connector plugins
+235834861 KIP-892: Transactional Semantics for StateStores
+235836000 KIP-893: The Kafka protocol should support nullable structs
+235837121 KIP-894: Use incrementalAlterConfigs API for syncing topic configurations
+235838251 KIP-896: Remove old client protocol API versions in Kafka 4.0
+235838339 KIP-895: Dynamically refresh partition count of __consumer_offsets
+240880847 KIP-897: Publish a single kafka (aka core) Maven artifact in Apache Kafka 4.0
+240880955 KIP-903: Replicas with stale broker epoch should not be allowed to join the ISR
+240881354 KIP-898: Modernize Connect plugin discovery
+240881396 KIP-899: Allow producer and consumer clients to rebootstrap
+240881535 KIP-900: KRaft kafka-storage.sh API additions to support SCRAM for Kafka Brokers
+240881682 KIP-901: Add connectorDeleted flag when stopping tasks
+240882784 KIP-902: Upgrade Zookeeper to 3.8.2
+240883007 KIP-904: Kafka Streams - Guarantee subtractor is called before adder if key has not changed
+240883408 KIP-905: Broker interceptors
+240883776 Release Plan 3.5.0
+240883967 KIP-906: Tools migration guidelines
+240884389 KIP-907: Add Boolean Serde to public interface
+240884525 KIP-908: Add description field to connector configuration
+240884528 KIP-909: DNS Resolution Failure Should Not Fail the Clients
+240884568 KIP-910: Update Source offsets for Source Connectors without producing records
+240884615 KIP-911: Add source tag to MirrorSourceConnector metrics
+240885333 KIP-912: Support decreasing send's max block time without worrying about metadata's fetch
+240885354 KIP-913: add new method to provide possibility for accelerate first record's sending
+247827010 KIP-914: DSL Processor Semantics for Versioned Stores
+247827387 KIP-915: Txn and Group Coordinator Downgrade Foundation
+252512856 KIP-916: MM2 distributed mode flow log context
+252513269 KIP-917: Additional custom metadata for remote log segment
+252513724 KIP-918: MM2 Topic And Group Listener
+255068731 KIP-919: Allow AdminClient to Talk Directly with the KRaft Controller Quorum and add Controller Registration
+255068836 KIP-920: Support upgrading KRaft MetadataVersion based on a static config
+255068846 Consumer threading refactor
+255068855 Consumer threading refactor test plan
+255068857 Consumer threading refactor release plan
+255068915 KIP-921: OpenJDK CRaC support
+255068973 KIP-922: Add the traffic metric of the partition dimension
+255069076 KIP-923: Add A Grace Period to Stream Table Join
+255069252 Release plan 3.4.1
+255069705 KIP-925: Rack aware task assignment in Kafka Streams
+255069788 KIP-926: introducing acks=min.insync.replicas config
+255069912 KIP-927: Improve the kafka-metadata-quorum output
+255070128 KIP-928: Making Kafka resilient to log directories becoming full
+255070191 KIP-929 : Observer Replicas
+255070195 KIP-930: Rename ambiguous Tiered Storage Metrics
+255070206 KIP-931: Flag to ignore unused message attribute field
+255070434 KIP-932: Queues for Kafka
+255070577 ideas for kafka message format v.3
+255070718 KIP-935: Extend AlterConfigPolicy with existing configurations
+255070719 KIP-934: Add DeleteTopicPolicy
+255070762 KIP-933: Publish metrics when source connector fails to poll data
+255070933 KIP-936: Throttle number of active PIDs
+255070951 Release Plan 3.6.0
+255071414 KIP-937: Improve Message Timestamp Validation
+255071551 KIP-924: customizable task assignment for Streams
+255071616 KIP-938: Add more metrics for measuring KRaft performance
+255071659 KIP-939: Support Participation in 2PC
+255072049 KIP-940: Broker extension point for validating record contents at produce time
+255072761 KIP-941: Range queries to accept null lower and upper bounds
+255072895 KIP-942: Add Power(ppc64le) support
+255073394 KIP-944: Support async runtimes in consumer
+255073470 KIP-943: Add independent “offset.storage.segment.bytes” for connect-distributed.properties
+255073708 KIP-945: Update threading model for Consumer
+255073710 KIP-946: Modify exceptions thrown by Consumer APIs
+255073717 KIP-947: Add support for consumer group protocol in Consumer
+255073847 Release plan 3.5.1
+255073914 KIP-948: Allow custom prefix for internal topic names in Kafka Streams
+255074103 KIP-949: Add flag to enable the usage of topic separator in MM2 DefaultReplicationPolicy
+263424654 KIP-950:  Tiered Storage Disablement
+263424791 KIP-951: Leader discovery optimizations for the client
+263424884 KIP-952: Regenerate segment-aligned producer snapshots when upgrading to a Kafka version supporting Tiered Storage
+263424937 KIP-953: partition method to be overloaded to accept headers as well.
+263425263 KIP-954: expand default DSL store configuration to custom types
+263425474 KIP-955: Add stream-table join on foreign key
+263425540 KIP-956 Tiered Storage Quotas
+263425685 KIP-957: Support Async runtimes
+263425864 KIP-958: Tiered Storage Metrics
+263425885 KIP-959: Add BooleanConverter to Kafka Connect
+263425962 KIP-960: Support single-key_single-timestamp interactive queries (IQv2) for versioned state stores
+263426175 KIP-962: Relax non-null key requirement in Kafka Streams
+263426307 Kafka Tiered Storage Early Access Release Notes
+263426481 KIP-963: Additional metrics in Tiered Storage
+263426647 KIP-964: Have visibility when produce requests become "async"
+263426707 KIP-965: Support disaster recovery between clusters by MirrorMaker
+263426942 KIP-967: Support custom SSL configuration for Kafka Connect RestServer
+263426970 KIP-966: Eligible Leader Replicas
+263427063 KIP-971: Expose replication-record-lag MirrorMaker2 metric
+263427162 KIP-968: Support single-key_multi-timestamp interactive queries (IQv2) for versioned state stores
+263427163 KIP-969: Support range interactive queries (IQv2) for versioned state stores
+263427501 KIP-970: Deprecate and remove Connect's redundant task configurations endpoint
+263427582 KIP-979: Allow independently stop KRaft processes
+263427891 KIP-972: Add the metric of the current running version of kafka
+263427911 Controller/broker configs list
+263428097 KIP-973: Expose per topic replication rate metrics
+263428137 KIP-974: Docker Image for GraalVM based Native Kafka Broker
+263428253 Consumer rebalance
+263428303 KIP-975: Docker Image for Apache Kafka
+263428317 KIP-976: Cluster-wide dynamic log adjustment for Kafka Connect
+263428771 KIP-977: Partition-Level Throughput Metrics
+263429128 KIP-978: Allow dynamic reloading of certificates with different DN / SANs
+263429324 KIP-980: Allow creating connectors in a stopped state
+263429334 Streams Runtime Architecture with New Threading
+263429475 KIP-982: Access SslPrincipalMapper and kerberosShortNamer in Custom KafkaPrincipalBuilder
+263429525 KIP-981: Manage Connect topics with custom implementation of Admin
+263429556 1-Pager: Testing Strategy for New Kafka Consumer
+263429877 KIP-983: Full speed async processing during rebalance
+263430249 KIP-984: Add pluggable compression interface to Kafka
+263430264 KIP-985: Add reverseRange and reverseAll query over kv-store in IQv2
+263430272 KIP-986: Cross-Cluster Replication
+263430342 KIP-987: Connect Static Assignments
+263430346 KIP-988: Streams Standby Update Listener
+263430388 KIP-989: Improved StateStore Iterator metrics for detecting leaks
+263430433 KIP-995: Allow users to specify initial offsets while creating connectors
+272927484 KIP-990: Capability to PAUSE Tasks on DeserializationException
+272927537 KIP-996: Pre-Vote
+272927620 Release Plan 3.7.0
+272927649 KIP-991: Allow DropHeaders SMT to drop headers by wildcard/regexp
+272927821 KIP-992: Proposal to introduce IQv2 Query Types: TimestampedKeyQuery and TimestampedRangeQuery
+276105759 Release plan 3.5.2
+276105778 KIP-993: Allow restricting files accessed by File and Directory ConfigProviders
+276106184 KIP-994: Minor Enhancements to ListTransactions and DescribeTransactions APIs
+278465024 KIP-997:  update WindowRangeQuery and unify WindowKeyQuery and WindowRangeQuery
+278465177 KIP-998: Give ProducerConfig(props, doLog) constructor protected access
+278465183 KIP-999: Server-side Consumer Lag Metrics
+278465373 KIP-1000: List Client Metrics Configuration Resources
+278465479 KIP-1001: Some New Metrics and Config Key Deprecations
+278465658 KIP-1001: Add CurrentControllerId Metric
+278465710 KIP-1002: Fetch remote segment indexes at once
+278465712 KIP-1003: Signal next segment when remote fetching
+278465741 KIP-1004: Enforce tasks.max property in Kafka Connect
+278465818 Release plan 3.6.1
+278466523 KIP-1005: Expose EarliestLocalOffset and TieredOffset
+278466565 KIP-1006: Remove SecurityManager Support
+278466607 KIP-1007: Introduce Remote Storage Not Ready Exception
+278466652 KIP-1008: ParKa - the Marriage of Parquet and Kafka
+278466693 KIP-1009: Add Broker-level Throttle Configurations
+278467086 Flaky Test Index
+283118193 KIP-1010: Topic Partition Quota
+284789184 KIP-1011: Use incrementalAlterConfigs when updating broker configs by kafka-configs.sh
+284789478 KIP-1012: The need for a Kafka 3.8 and 3.9 release
+284789510 KIP-1013: Drop broker and tools support for Java 11 in Kafka 4.0 (deprecate in 3.7)
+284790213 KIP-1014: Managing Unstable Features in Apache Kafka
+284790240 Release Plan 3.8.0
+284790336 KIP-1015: Limit number of ssl connections in brokers
+287607736 KIP-1016 Make MM2 heartbeats topic name configurable
+288885482 Apache Kafka Java client
+288885486 Java client Consumer request flow
+288885655 KIP-1017: Health check endpoint for Kafka Connect
+288885776 Java client Consumer timeouts
+288885825 KIP-1018: Introduce max remote fetch timeout config for DelayedRemoteFetch requests
+290982408 The Next Generation of the Consumer Rebalance Protocol (KIP-848) - Early Access Release Notes
+290982791 KIP-1019: Expose method to determine Metric Measurability
+290982804 KIP-1020: Move `window.size.ms` and `windowed.inner.class.serde` from `StreamsConfig` to TimeWindowedDe/Serializer and SessionWindowedDe/Serializer class
+293046753 Kafka JBOD in KRaft Early Access Release Notes
+293046985 KIP-1021: Allow to get last stable offset (LSO) in kafka-get-offsets.sh
+293047026 KIP-1023: Follower fetch from tiered offset
+293047057 KIP-1022: Formatting and Updating Features
+293047059 KIP-1024: Make the restore behavior of GlobalKTables with custom processors configureable
+293047214 PMC member onboarding guide
+294816368 KIP-1025: Optionally URL-encode clientID and clientSecret in authorization header
+294816589 KIP-1026: Handling producer snapshot when upgrading from < v2.8.0 for Tiered Storage
+294816709 KIP-1027: Add MockFixedKeyProcessorContext and TestFixedKeyRecordFactory
+296290768 KIP-1028: Docker Official Image for Apache Kafka
+296290836 KIP-1030: Change constraints and default values for various configurations
+296290842 Release plan 3.6.2
+296290886 KIP-1031: Control offset translation in MirrorSourceConnector
+298781371 KIP-1032: Upgrade to Jakarta and JavaEE 10 in Kafka 4.0
+300026309 KIP-1033: Add Kafka Streams exception handler for exceptions occurring during processing
+300026655 KIP-1034: Dead letter queue in Kafka Streams
+300026729 KIP-1035: StateStore managed changelog offsets
+301795741 KIP-1036: Extend RecordDeserializationException exception
+301795797 KIP-1037: Allow WriteTxnMarkers API with Alter Cluster Permission
+301796027 KIP-1038: Add Custom Error Handler to Producer
+301796175 KIP-1039: Disable automatic topic creation for MirrorMaker2 consumers
+303794677 KIP-1040: Improve handling of nullable values in InsertField, ExtractField, and other transformations
+303794692 Release plan 3.7.1
+303794855 KIP-1042: Implementation of a GLOB Pattern type for ACL pattern matching.
+303794933 KIP-1041: Drop `offsets.commit.required.acks` config in 4.0 (deprecate in 3.8)
+305171038 KIP-1043: Administration of groups
+307137012 KIP-1044: A proposal to change idempotent producer -- server implementation
+307137098 KIP-1045: Move MockAdminClient to public api
+307137123 KIP-1046: Expose producer.id.expiration.check.interval.ms as dynamic broker configuration
+308152759 KIP-1047 Introduce new org.apache.kafka.tools.api.Decoder to replace kafka.serializer.Decoder
+308152895 KIP-1048: Improve kafka-consumer-perf-test to benchmark single partition
+308152959 KIP-1049: Add config log.summary.interval.ms to Kafka Streams
+309496747 KIP-1054: Support external schemas in JSONConverter
+309496816 KIP-1050: Consistent error handling for Transactions
+309496843 KIP-1051: Statically configured log replication throttling
+309496859 KIP-1053: Align the naming convention for config and default variables in *Config classes
+309496968 KIP-1052: Enable warmup in producer performance test
+309497187 KIP-1056: Remove `default.` prefix for exception handler StreamsConfig
+309497216 KIP-1055: Introducing Round-Robin Assignment Strategy to ConnectorUtils
+311626365 Release Plan 3.9.0
+311626460 KIP-1057: Add remote log metadata flag to the dump log tool
+311626503 KIP-1058: Txn consumer exerts pressure on remote storage when collecting aborted transactions
+311626522 KIP-1059: Enable Producer to resolve send() method errors
+311626765 KIP-1060: Expose advertised.listeners for KRaft controllers
+311626886 KIP-1061: Allow exporting SCRAM credentials
+311627028 KIP-1062: Introduce Pagination for some requests used by Admin API
+311627041 KIP-1063: Drop inconsistent casing in Selector metrics tags
+311627137 KIP-1064: Upgrade slf4j to 2.x
+311627309 KIP-1065: Add "retry" return-option to ProductionExceptionHandler
+311627566 KIP-1066: Mechanism to cordon brokers and log directories
+311627623 KIP-1067: Remove ReplicaVerificationTool in 5.0 (deprecate in 3.9)
+311627648 INFRA-25932 GitHub Merge Queue Evaluation
+311627669 KIP-1068: New metrics for the new KafkaConsumer
+311627955 KIP-1070: deprecate MockProcessorContext
+311627992 KIP-1071: Streams Rebalance Protocol
+315492811 Dormant/inactive KIPs
+315492813 Discarded KIPs
+315492818 KIP Discussion Recordings
+315493100 KIP-1072: Add @FunctionalInterface annotation to Kafka Streams SAM methods
+315493269 KIP-1073: Return fenced brokers in DescribeCluster response
+315493772 KIP-1074: Allow the replication of user internal topics
+315493862 The Next Generation of the Consumer Rebalance Protocol (KIP-848) - Preview Release Notes
+315493897 KIP-1079: Deprecate `delete-config` of TopicCommand
+315494171 KIP-1075: Introduce delayed remote list offsets purgatory to make LIST_OFFSETS async
+315494236 KIP-1076:  Metrics for client applications KIP-714 extension
+315494264 KIP-1077: Deprecate `ForeachProcessor` and move to internal package
+315494278 KIP-1078: Remove Leaking Getter Methods in Joined Helper Class
+315494492 KIP-1082: Require Client-Generated IDs over the ConsumerGroupHeartbeat RPC
+315494647 Kafka Tiered Storage GA Release Notes
+315494681 KIP-1080: Fix the typo: `maxlifeTimeMs` in CreateDelegationTokenOptions
+318605721 KIP-1081: Graduation Steps for KIPs
+318605843 KIP-1083: Increase default value of task.shutdown.graceful.timeout.ms in Connect
+318606469 KIP-1085: Fix leaking *_DOC variables in StreamsConfig
+318606528 KIP-1086: Add ability to specify a custom produce request parser.
+318606545 Flaky Test Management
+318606599 KIP-NEXT: Aaaaa
+318606678 KIP-1087: Removing intermediateTopicsOption from StreamsResetter
+318606836 KIP-1088: Replace KafkaClientSupplier with KafkaClientInterceptor
+321718867 KIP-1089: Allow disabling heartbeats replication in MirrorSourceConnector
+321719036 KIP-1090 Flaky Test Management
+321719044 KIP-1093: Add more observability for MirrorMaker2
+321719074 KIP-1091: Improved Kafka Streams operator metrics
+321719077 KIP-1092: Extend Consumer#close with an option to leave the group or not
+323488210 KIP-1095: Kafka Canary Isolation
+323488338 KIP-1094: Add a new constructor method with nextOffsets to ConsumerRecords
+323488348 Release Plan 3.8.1
+325421614 Release Plan 4.0.0
+325421632 KIP-1097: Add Kafka Connect exception handler
+325421807 KIP-1096: Add ability to pass headers to ProducerPerformance
+327420365 KIP-1098: Reverse Checkpointing in MirrorMaker
+327977411 KIP-1099: Extend kafka-consumer-groups command line tool to support new consumer group
+327977706 KIP-1100: Rename org.apache.kafka.server:type=AssignmentsManager and org.apache.kafka.storage.internals.log.RemoteStorageThreadPool metrics
+327977750 KIP-1101: Trigger rebalance on rack topology changes
+327977769 KIP-1102: Enable clients to rebootstrap based on timeout or error code
+327977799 KIP-1103: Additional metrics for cooperative consumption
+327977856 KIP-1104: Allow Foreign Key Extraction from Both Key and Value in KTable Joins
+327977880 KIP-1140: Avoid to return null value in Map from public api of consumer
+327978018 KIP-1105: Make remote log manager thread-pool configs dynamic
+327978036 KIP-1106: Add duration based offset reset option for consumer clients
+327978046 KIP-1107:  Adding topic-level acks and compressions for producers
+327978132 KIP-1108: Publish metrics for skipped records in Kafka Connect
+327978495 KIP-1109: Unifying Kafka Consumer Topic Metrics
+327978568 KIP-1110: Metadata of sensitive configuration
+327978578 Release plan 3.7.2
+327978977 KIP-1111: Enforcing Explicit Naming for Kafka Streams Internal Topics
+327979085 KIP-1112: allow custom processor wrapping
+327979103 KIP-1113: Enhancements to Rack-Aware Partition Assignor for Improved Client-Side Independence and Load Balancing
+327979272 KIP-1114: Introducing Chunk in Partition
+327979416 KIP-1115: Bazel Builds
+327979493 KIP-1116: Adding new Principal Types on Standard ACL side for filtering KafkaPrincipal
+332499402 KIP-1117: Support keystore with multiple alias entries
+332499502 KIP-1118: Add Deadlock Protection on Producer Network Thread
+332499576 KIP-1119: Add support for SSL auto reload
+332499685 New Committer Workflow
+334760414 KIP-1120: AppInfo metrics don't contain the client-id
+334760542 KIP-1121: Compression acceleration in Kafka
+334760588 KIP-1122: Create a dedicated data module for Kafka Connect data classes
+334760738 KIP-1123: Rack-aware partitioning for Kafka Producer
+337676747 KIP-1124: Providing a clear Kafka Client upgrade path for 4.x
+337676939 Queues for Kafka (KIP-932) - Early Access Release Notes
+337677055 KIP-1125: Remove Invalid 'numberOfOpenFiles' Metric from RocksDB State Store
+337678724 KIP-1126 Add progress metric for log loading during Kafka broker startup
+340036064 KIP-1126: Serialize changes to Kafka with a build queue
+340036132 KIP-1127 Flexible Windows for Late Arriving Data
+340036188 KIP-1131: Improved controller-side monitoring of broker states
+340036225 KIP-1128: Replace KTable.transformValues with KTable.processFixedKey and add new KStreams.processFixedKey
+340036255 KIP-1129: Update ConfigException constructors
+340036273 KIP-1130: Add metrics indicating the connection count exceeds
+340036408 KIP-1132: KRaft servers support invalid static SocketServer configurations
+340036497 KIP-1133: AK Documentation and Website in Markdown
+340036792 KIP-1139: Add support for OAuth jwt-bearer grant type
+340036984 KIP-1134: Multi-tenancy in Kafka: Virtual Clusters
+340037077 KIP-1135: Deprecated "org.apache.kafka.disallowed.login.modules"
+340037295 KIP-1136: Make ConsumerGroupMetadata an interface
+340037337 KIP-1137: Standardize Configuration Precedence for Tool Scripts
+340037475 KIP-1138: Clean up TopologyConfig and API for supplying configs needed by the topology
+340037949 KIP-1141: Simplifying Add/Remove Voter in MetadataQuorumCommand
+345377280 KIP-1142: Allow to list non-existent group which has dynamic config
+345377292 KIP-1144: Exposing a new public REST API for MirrorMaker 2
+345377327 KIP-1143: Deprecated Optional<String> and return String from public Endpoint#listenerName
+345377456 KIP-1145: Kafka Streams `CloseOptions` should not have a public constructor
+345377525 KIP-1146: Anchored punctuation
+345377550 KIP-1147: Improve consistency of command-line arguments
+345377856 Release Plan 3.9.1
+345377862 Release Plan 4.1.0
+345377879 KIP-1149: Helm Chart for Apache Kafka
+345377884 KIP-1148: Remove log.cleaner.enable and set lower bound 1 to log.cleaner.threads
+345377898 KIP-1150: Diskless Topics
+345378006 KIP-1151: Minimal movement replica balancing algorithm for reassignment
+347933154 KIP-1152: Add transactional ID pattern filter to ListTransactions API
+347933248 KIP-1153: Refactor Kafka Streams CloseOptions to Fluent API Style
+347933249 Extending support for Microsecond Precision for Kafka Connect [Duplicate]
+347933282 KIP-1154: Extending support for Microsecond/Nanosecond Precision for Kafka Connect
+347933317 KIP-1158: Improve Connect SourceTask commit()
+347933361 KIP-1155: Metadata Version Downgrades
+347933365 KIP-1156: Define an official backward compatibility contract
+347933398 KIP-1157: Enforce KafkaPrincipalSerde Implementation for KafkaPrincipalBuilder
+347933443 KIP-1172: Improve EndToEndLatency Tool with argument parser and message key/header support
+349637034 KIP-1159: Large message reference based Serializer
+349637094 KIP-1160: Enable returning supported features from a specific broker
+349637148 KIP-1161: Unifying LIST-Type Configuration Validation and Default Values
+350783948 KIP-1162: Redesign ClientQuotaCallback#updateClusterMetadata
+350783976 KIP-1163: Diskless Core
+350783984 KIP-1164: Diskless Coordinator
+350783996 KIP-1165: Object Consolidation for Diskless
+350784062 Copy of KIP-1139: Add support for OAuth jwt-bearer grant type
+352618936 KIP-1166: Improve high-watermark replication
+352619098 KIP-1171: Majority replication and leader election
+352619109 KIP-1170: Unify cluster metadata bootstrapping
+353602011 KIP-1173: Connect Storage Topics Sharing Across Clusters
+354453948 Add Group ID pattern filter to ListGroups API
+354453959 KIP-1174: Expose addReadOnlyStateStore in DSL (StreamsBuilder)
+354454057 KIP-1175: Fix the typo `PARTITIONER_ADPATIVE_PARTITIONING_ENABLE` in ProducerConfig
+354454090 KIP-1176: Tiered Storage for Active Log Segment
+355568048 KIP-1177: Consider renaming org.apache.kafka.storage.internals.log.RemoteStorageThreadPool metrics
+356452810 KIP-1178: Introduce remote.max.partition.fetch.bytes config in Consumer
+356452875 KIP-1180: Add generic feature level metrics
+357173709 KIP-1181: Metadata Rack Awareness for Diskless Topics
+357173727 KIP-1182: Quality of Service (QoS) Framework
+357960132 KIP-1179: Introduce remote.log.manager.follower.thread.pool.size config
+357960226 KIP-1183: Unified Shared Storage
+361400766 KIP-1184: Add connector name and task index tags to MirrorMaker tasks' metrics
+363432404 KIP-1185 - Dynamic Connect Worker Configuration
+364349960 Queues for Kafka (KIP-932) - Preview Release Notes
+369166805 KIP-1186: Update AddRaftVoterRequest RPC to support auto-join
+371296689 KIP-1187: Support to retrieve remote log size via DescribeLogDirs RPC
+372214194 Onboarding Committers and PMC Members
+372214232 KIP-1188: New ConnectorClientConfigOverridePolicy with allowlist of configurations
+373885342 KIP-1189: Allow custom topic configurations for RemoteStorageManager
+373885352 Release Plan 4.0.1
+373885516 KIP-1190: Add a metric for controller thread idleness
+373885564 KIP-1191: Dead-letter queues for share groups
+373886012 KIP-1192: Add include argument to ConsumerPerformance tool
+373886068 KIP-1193: Deprecate MX4j support
+373886103 KIP-1194: Optimize Replica Assignment for Broker Load Balance in Uneven Rack Configurations
+373886192 KIP-1195: deprecate and remove org.apache.kafka.streams.errors.BrokerNotFoundException
+373886335 KIP-1202: Align broker and controller "advertised.listeners" and "listeners" behaviour
+373886596 KIP-1196: Introduce group.coordinator.append.max.buffer.size config
+373886750 KIP-1197: Introduce new method to improve the TopicBasedRemoteLogMetadataManager's initialization
+373886775 KIP-1201: Add disk threshold strategy to prevent disk full failure
+373887023 KIP-1198: implement a ConfigKey.Builder class
+373887039 KIP-1199: Add max record count limit to FetchRequest
+373887083 KIP-1200: Deprecate ClientQuotaCallback#updateClusterMetadata
+373887351 KIP-1203: Allow to configure custom `ReplicaPlacer` implementation
+373887402 The Path Forward for Saving Cross-AZ Replication Costs KIPs
+378472902 KIP-1204: MetadataQuorumCommand describe to include CommittedVoters
+379685277 KIP-1205: Improve RecordHeader to be Thread-Safe
+379685287 KIP-1206: Strict max fetch records in share fetch
+379685395 KIP-1207: Fix anomaly of JMX metrics RequestHandlerAvgIdlePercent in kraft combined mode
+379685440 KIP-1210: Disallow Configurations at the Broker Level
+379685565 KIP-1208: Add prefix to TopicBasedRemoteLogMetadataManagerConfig to enable setting admin configs
+381028888 KIP-1209: Add configuration to control internal topic creation in Kafka Connect
+382175832 KIP-1211: Align the behavior of num.partitions and default.replication.factor for topic creation
+383191500 KIP-1213: Deprecated the log.dir configuration
+383191586 KIP-1214: Change log.segment.bytes configuration type from int to long to support segments larger than 2GB
+384895421 KIP 1215: Graceful stop on Kafka Streams exceptions processing handlers
+384895435 KIP-1216: Add rebalance listener metrics for Kafka Streams
+384895465 KIP-1217: Include push interval in ClientTelemetryReceiver context
+384895541 KIP-1218: Expose consumer CorruptRecordException
+386271689 KIP-1219: Configurations for KRaft Fetch and FetchSnapshot Byte Size
+387647997 KIP-1220: Unify kafka-broker-api-versions tool to cluster-tool and support bootstrap controllers
+387648141 KIP-1221: Add application-id tag to Kafka Streams state metric
+388893095 KIP-1222: Acquisition lock timeout renewal in share consumer explicit mode
+388893204 Release Plan 4.2.0
+390760944 KIP-1223: Add user tag to DeprecatedRequestsMetric
+390761014 KIP-1224: Adaptive append.linger.ms for the group coordinator and share coordinator
+390761112 KIP-1225: Add Optional TTL Support to Kafka Streams State Stores
+390761191 Release Plan 4.1.1
+390761228 KIP-1226: Introducing Share Partition Lag Persistence and Retrieval
+392038960 KIP-1238: Multipartition for TopologyTestDriver in Kafka Streams
+392039071 KIP-1227: Expose Rack ID in MemberDescription and ShareMemberDescription
+392039134 KIP-1228: Add Transaction Version to WriteTxnMarkersRequest
+392039269 KIP-1229: Add Idle Thread Ratio Metric to MetadataLoader
+393677198 KIP-1230: Add config for file system permissions
+393677253 KIP-1231: Deprecate '--max-partition-memory-bytes' option in ConsoleProducer
+393677342 KIP-1232: Deprecate broker.id config
+393677856 KIP-1233: Maximum lengths for resource names and IDs
+395381135 KIP-1234: Move and Add Arguments to version-mapping Commands
+395381259 KIP-1243: Consistent Metadata Reads
+396790218 KIP-1235: Correct the default min.insync.replicas to 2 for the __remote_log_metadata topic
+396790312 KIP-1236: Adjust quorum-related config lower bounds
+396790412 KIP-1237: Deprecate group.coordinator.rebalance.protocols config
+398000363 Release Plan 3.9.2
+399278471 KIP-1239: Batch offset translation in RemoteClusterUtils
+399278516 KIP-1240: Additional group configurations for share groups
+399278595 KIP-1241: Reduce tiered storage redundancy with delayed upload
+399278683 KIP-1242: Detection and handling of misrouted connections
+399278767 KIP-1244 Drop support for streams-scala in Kafka 5.0 (deprecate in 4.3)
+399278936 KIP-1245: Enforce 'application.server' <server>:<port> format at config level
+399279015 KIP-1246: Deprecate  backdoor that allows any client to produce to internal topics
+399279117 KIP-1247: Make Bytes utils class part of the public API
+399279145 KIP-1248: Broker support for remote tiered storage fetch from consumer
+399279190 KIP-1249: Better offset reset for the new consumer group rebalance protocol
+399279262 KIP-1250: Add metric to track size of in-memory state stores
+399279344 KIP-1251: Assignment epochs for consumer groups
+399279475 KIP-1252: AlterConfigPolicy compatibility in legacy Zookeeper mode (3.9.2 release)
+399279604 KIP-1253: Add TopologyValidator Utility for Kafka Streams Topology Compatibility
+399279678 KIP-1254: Kafka Consumer Support for Remote Tiered Storage Fetch
+399281539 KIP-1255: Remote Read Replicas for Kafka Tiered Storage
+399281703 KIP-1256 Align broker and controller behavior for the Admin.incrementalAlterConfigs API
+404160816 KIP-1257: Partition Size Percentage Metrics for Storage Monitoring
+404160887 KIP-1258: Add Support for OAuth Client Assertion to client_credentials Grant Type
+404161118 KIP-1259: Add configuration to wipe Kafka Streams local state on startup
+406618373 KIP-1260: Enable ProducerPerformance to abort transactions
+406618380 KIP-1263: Group Coordinator Assignment Batching and Offload
+406618393 KIP-1294: Metadata-Version-Aware Configuration Constraints
+406618431 KIP-1261: Extend Share Group Dynamic Configurations
+406618510 KIP-1262: Enable auto-formatting directories
+406618536 KIP-1270: Extend ProcessExceptionalHandler for GlobalThread
+406618539 KIP-1264: Configurable TTL for Tiered Storage Index Cache
+406618601 KIP-1265: Mechanism for automatic detection of internal API usage
+406618613 KIP-1266: Bounding The Number Of RemoteLogMetadata Messages via Compacted Topic
+406618693 KIP-1267: Tiered Storage Cost Attribution Metrics
+406618734 KIP-1268: Prevent Dynamic Partition Expansion of Internal Topics
+406618774 KIP-1269: Configurable number of batches to retain in broker
+406618944 KIP-1271: Allow to Store Record Headers in State Stores
+406618989 KIP-1272: Support compacted topic in tiered storage
+406619431 KIP-1273: Improve Connect configurable components discoverability
+406619660 KIP-1276: CIDR-based Host Patterns for ACLs
+406619710 KIP-1274: Deprecate and remove support for Classic rebalance protocol in KafkaConsumer
+406619740 KIP-1275: New command line tool for unclean recovery
+406619800 KIP-1282: Prevent data loss during partition expansion for dynamically added partitions
+406619950 Release Plan 4.0.2
+406619962 Release Plan 4.1.2
+406620114 KIP-1277: Support Delayed Message in Kafka
+406620218 KIP-1278: Configurable Retry Mechanism for KafkaStatusBackingStore
+406620701 Handling Jira and Confluence account requests
+406620771 Release Plan 4.3.0
+406620926 KIP-1286: Add last-applied-image-latency metric for brokers
+406620973 KIP-1279: Cluster Mirroring
+406621035 KIP-1280: Update MirrorMaker to use KIP-877 to emit metrics
+406621337 KIP-1283: Clarify KafkaStreams cleanUp semantics to preserve process metadata and state directory lock file
+406621398 KIP-1284 Introduce CloseOptions.DEFAULT for Kafka Streams
+406621410 KIP-1285: DSL Opt-in Support for Headers-Aware State Stores
+406621583 KIP-1287 Disallow sendOffsetsToTransaction from committing offsets for unassigned partitions
+406621622 KIP-1288: SSL Hot Reload for Kafka Clients
+406621735 KIP-1289 Support Transactional Acknowledgments for Share Groups
+406621802 KIP-1290: Rack-Aware Minimum In-Sync Replicas
+406621809 KIP-1292: New MirrorMaker2 Connector for syncing consumer offsets
+406621810 KIP-1291: Extended I/O Metrics Collection
+406622114 Okay to delete
+406622134 KIP-1293: Add Time-Shift Parameter to Kafka Streams Punctuation Scheduling
+406622287 Unclean Leader Election in Cluster Mirroring
+406622431 KIP-1295: Dead letter queue support for global store/KTable
+406622499 KIP-1316:Circuit Breaker for Share Group DLQ Overflow
+406622501 KIP-1317:Mandatory DLQ Disposition Header for Share Groups
+406622741 KIP-1300: Automated Contribution Quality and AI-Generated Pull Request Validation
+406622772 KIP-1319: Align TxnOffsetCommit API with OffsetCommit API
+406622820 KIP-1298: Per-Resource-Type Authorization for LIST_CONFIG_RESOURCES
+406622835 KIP-1296: Shadow Jetty dependencies to decouple from SLF4J version conflict
+406623007 KIP-1297: Role-Aware Metric Tags for NodeToControllerChannelManagerImpl
+406623221 PID Mapping in Cluster Mirroring
+406623326 KIP-1299 Use key range in ProducerPerformance
+406623526 KIP-1302: Support Share Groups (Queue Semantics) in Kafka Connect Sink Connectors
+406623554 KIP-1300: Update KStream-KStream Join to Use Plain-Value-Header Window Stores
+406623566 Release Plan 4.2.1
+406623591 KIP-1301: Deprecate Yammer-based metrics in `GroupCoordinatorMetrics`
+406623620 KIP-1303: Deprioritize Tiered Storage Followers In Leader Election
+406623662 KIP-1304: Add consumer metric about paused partitions
+406623705 KIP-1305: Per-Record Context Processing for Kafka Consumers
+406623733 KIP-1306: Extend ConsumerRebalanceListener with Consumer-Aware methods
+406623744 KIP-1307: SerDe and Interceptor Metrics
+406623766 KIP-1308: Extend Header API for Common Value Types
+406623804 KIP-1309: Improve transaction liveness checking
+406623900 KIP-1310: General Transaction Session
+406623925 KIP-1311: Extract minimal public Time interface from internal Time API
+406623954 KIP-1312: Support unregistering controllers
+406624038 KIP-1313: Client instance ID in all request headers
+406624081 KIP-1314: Support broker-side consumer group rebalance callback
+406624122 KIP-1315: Split Connector Listing and Expanded Views in the Connect REST API
+421953714 KIP-1318: Model Context Protocol (MCP) Server for Apache Kafka
+421954685 KIP-1320: Deprecate heavily used internal APIs
+421954910 KIP-20461: Support Infinite Retention for Consumer Group Offsets
+421956773 KIP-1321: Headers aware StreamPartitioner
+421956825 KIP-1326: Include broker static configurations in BrokerRegistrationRequest
+421956886 KIP-1322: Add metrics to Kraft that measure the number of fetch timeouts and election timeouts
+421957053 KIP-1323: Initialization of share group offsets from a specific offset or a file
+421957065 KIP-1324: Support client configuration observability
+421957079 KIP-1325: Add restore.buffered.records.per.partition to cap Kafka Streams state-restore memory
+421957161 KIP-1327: Prevent Hot Data Loss on Partition Expansion for Reset Offset Policy
+421957185 KIP-1328: Dead Letter Queue Support for DSL Dropped Records
+421957194 KIP-1334 : Introduce max.future.record.timestamp.difference.ms to Protect Stream-Time from Future Record Poisoning
+421957212 KIP-1331: Streams Group Topology Description Plugin
+421957264 KIP-1329: ListClientConnections Admin API
+421957499 KIP-1332: Dynamic memory allocation for the Kafka producer
+421957815 KIP-1333: Support log segments larger than 2 GB
+421957873 KIP-1335 Bounded concurrency for partition reassignment via kafka-reassign-partitions.sh
+421958105 KIP-1336: Progress Signaling for Share-Group In-Flight Records (markInProgress + IN_PROGRESS State)
+421958161 KIP-1337: Add Protobuf MessageFormatter for Kafka Console Consumer
+421958281 KIP-1338: Structured MDC Context for Kafka Logging
+421958400 KIP-1339: Make KafkaConfigBackingStore read_write_total_timeout configurable
+421958552 KIP-1340: Expose Both Mapped Key and Stream Key in Streams-GlobalKTable Joins
+421958794 KIP-1341: Replace `<default>` placeholder in `ConfigEntity#name()` with `Optional<String> entityName()`
+421958795 KIP-1342: Deprecate Authorizer#aclCount
+421958800 KIP-1343: Allow opt-in leader-only acknowledgement in DeleteRecords
+421958823 KIP-1344: Add Transaction Coordinator Metrics for Transaction State Log Appends and Marker Completion
+421958837 KIP-1345: Cross-Cluster Atomic Transactions via Global Transaction Coordinator
+421958844 KIP-1349: Bytes-based configurable snapshot frequency for share groups
+421958889 KIP-1347: Overriding voter set on storage formatting
+421958901 KIP-1346 Parallelize loadSegmentFiles
+429064384 KIP-1348: Complete Kafka Streams Built-in Exception Handler Symmetry with LogAndContinueProductionExceptionHandler
+429064565 KIP-1350: Expose Streams Group Heartbeat Statuses as Kafka Streams Metrics
+429064575 Release Plan 4.4.0
+430407863 KIP-1351: Add --cancel-all to kafka-reassign-partitions
+430407894 KIP-1352: Ranges and Range Aggregations in the Kafka Streams DSL
+430408110 KIP-1354: Single purpose TLS extended key usages (EKU) support
+430408123 Release Plan 4.3.1
+430408177 KIP-1355: In-rack traffic observability for clients and brokers
+430408653 KIP-1356: Introduce IQv2 for headers-aware state stores
+430408758 KIP-1357: Add broker side custom assignors for "streams" groups
+430409229 KIP-1359: Improve usability of resetting group offsets
+430409245 KIP-1358: Gradual and gated preferred-leader election in the KRaft controller
+430409277 KIP-1360: Cluster Synchronous Mirroring
+438009996 KIP-1361 Change the default `auto.offset.reset` to `by_duration:PT5S`
+440303727 KIP-1362: Add a rollback-compatible storage format option for KRaft migration
+440303769 KIP-1363: Add --checkpoint option to kafka-metadata-shell and deprecate --snapshot
+440304013 KIP-1364: Expose Rebalance Cause to RebalanceConsumer and Metrics
+440304156 KIP-1365: Transform Observability and Skipped Record Handling for Kafka Connect
+440304328 KIP-1366: Configurable Segment Interval for Window and Session Stores
+440304597 KIP-1367: Reserve apiKey values for private use
+440304679 KIP-1368: Client framework name and version
+440304999 KIP-1369: API-Contract Annotations for Nullity/Thread Safety
+446070934 Need to delete this
+446071011 KIP-1370: Include Instance and Rack IDs in kafka-streams-groups.sh Member Output
+446071036 Design notes
+446071425 Aegis MCP Governance Gateway Proposal
+449282795 KIP-1371: Explicit Wait Conditions for Consumer Request Managers
+449286526 KIP-1372: Reject topic configurations where min.insync.replicas exceeds the replication factor
+451971130 Release Plan 4.3.2
+451971202 Release Plan 4.2.2
+451971254 KIP-1373: Client Quota Utilization Metrics
+451972636 KIP-1374: Allow StreamsBuilder.globalTable to Rekey
+451972701 KIP-1375: Add SuspendReason to StateRestoreListener.onRestoreSuspended
+451974516 KIP-1376: Support setting TLS named groups
+451974658 KIP-1377: ByteBuffer serialize method for Serializer
+451974696 KIP-1378: Allow Consumer Group Renaming in MirrorMaker 2 Checkpoint Connector
+451975138 Release Plan 4.5.0
+451979127 KIP-1379: Make server-side rack-aware assignment opt-in
+451979130 KIP-1380: Measure local.retention.ms from remote upload time instead of record timestamps
+451979367 KIP-1382: Expose Explicit Configuration Deletions to AlterConfigPolicy
+451979375 KIP-1381: Allow Brokers to Disable Compression Types for Client Writes

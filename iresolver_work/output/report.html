@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Issue Report</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .card {
+            margin-left:20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container pt-4">
+    <nav class="toc">
+        <h2>Content:</h2>
+        <ul>
+                    <li><a href="#KAFKA-17361">KAFKA-17361</a>
+                    <li><a href="#KAFKA-16800">KAFKA-16800</a>
+                    <li><a href="#KAFKA-16628">KAFKA-16628</a>
+                </ul>
+    </nav>
+            <div class="card bg-light border-secondary mb-4">
+            <div class="card-header">
+                <h4>
+                    <h2 id="KAFKA-17361"><a href="https://issues.apache.org/jira/browse/KAFKA-17361" target="_blank">KAFKA-17361</a></h2>KAFKA producer thread hung or infinite wait state 
+                </h4>
+            </div>
+            <div class="card-body">
+
+                            <details> <summary>Similar Issues</summary>
+                <table class="table table-hover table-bordered table-sm">
+                    <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Key</th>
+                        <th>Summary</th>
+                        <th>Similarity</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                            <td>Improvement</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-13032" target="_blank">KAFKA-13032</a></td>
+                            <td>Impossible stacktrace</td>
+                            <td>83,06%</td>
+                        </tr>
+                                                <tr>
+                            <td>Bug</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-17850" target="_blank">KAFKA-17850</a></td>
+                            <td>Stop leaking internal exception to StreamsUncaughtExceptionHandler</td>
+                            <td>82,08%</td>
+                        </tr>
+                                                <tr>
+                            <td>Improvement</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-12396" target="_blank">KAFKA-12396</a></td>
+                            <td>Dedicated exception for kstreams when null key received</td>
+                            <td>79,44%</td>
+                        </tr>
+                                                <tr>
+                            <td>Improvement</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-17099" target="_blank">KAFKA-17099</a></td>
+                            <td>Improve the process exception logs with the exact processor node name in which processing exceptions occur</td>
+                            <td>78,59%</td>
+                        </tr>
+                                                <tr>
+                            <td>Bug</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-10246" target="_blank">KAFKA-10246</a></td>
+                            <td>AbstractProcessorContext topic() throws NullPointerException when modifying a state store within the DSL from a punctuator</td>
+                            <td>77,51%</td>
+                        </tr>
+                                                <tr>
+                            <td>Bug</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-8142" target="_blank">KAFKA-8142</a></td>
+                            <td>Kafka Streams fails with NPE if record contains null-value in header</td>
+                            <td>75,95%</td>
+                        </tr>
+                                                <tr>
+                            <td>Bug</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-13400" target="_blank">KAFKA-13400</a></td>
+                            <td>offset() is not supported in standby tasks.</td>
+                            <td>75,68%</td>
+                        </tr>
+                                                <tr>
+                            <td>Bug</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-14567" target="_blank">KAFKA-14567</a></td>
+                            <td>Kafka Streams crashes after ProducerFencedException</td>
+                            <td>75,67%</td>
+                        </tr>
+                                                <tr>
+                            <td>Bug</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-5205" target="_blank">KAFKA-5205</a></td>
+                            <td>CachingSessionStore doesn't use the default keySerde.</td>
+                            <td>75,13%</td>
+                        </tr>
+                                                <tr>
+                            <td>Bug</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-9310" target="_blank">KAFKA-9310</a></td>
+                            <td>StreamThread may die from recoverable UnknownProducerId exception</td>
+                            <td>74,03%</td>
+                        </tr>
+                                            </tbody>
+                </table></details>
+                <br/>
+
+                <details> <summary>Qualified Users</summary>
+                <table class="table table-hover table-bordered table-sm">
+                    <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>Full Name</th>
+                        <th>E-mail</th>
+                        <th>Rank</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                            <td>mjsax</td>
+                            <td>Matthias J. Sax</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>10</td>
+                        </tr>
+                                                <tr>
+                            <td>cadonna</td>
+                            <td>Bruno Cadonna</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>4</td>
+                        </tr>
+                                                <tr>
+                            <td>githubbot</td>
+                            <td>ASF GitHub Bot</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>4</td>
+                        </tr>
+                                                <tr>
+                            <td>Nathan22177</td>
+                            <td>Valery Kokorev</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>2</td>
+                        </tr>
+                                                <tr>
+                            <td>biradar</td>
+                            <td>prabhu</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>2</td>
+                        </tr>
+                                                <tr>
+                            <td>grussell</td>
+                            <td>Gary Russell</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>2</td>
+                        </tr>
+                                                <tr>
+                            <td>niclas</td>
+                            <td>Niclas Hedhman</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>dvsingh9</td>
+                            <td>DV Singh</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>sebviale</td>
+                            <td>Sebastien Viale</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>kirktrue</td>
+                            <td>Kirk True</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>winkelman.kyle</td>
+                            <td>Kyle Winkelman</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>ll1124278064</td>
+                            <td>Yanwen Lin</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>ll1124278064</td>
+                            <td>Yanwen Lin</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>loicgreffier</td>
+                            <td>Loïc Greffier</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>mjsax</td>
+                            <td>Matthias J. Sax</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>pbiradar</td>
+                            <td>prabhu biradar</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>vvcephei</td>
+                            <td>John Roesler</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>Nathan22177</td>
+                            <td>Valery Kokorev</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>winkelman.kyle</td>
+                            <td>Kyle Winkelman</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>ableegoldman</td>
+                            <td>A. Sophie Blee-Goldman</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>vvcephei</td>
+                            <td>John Roesler</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>kirktrue</td>
+                            <td>Kirk True</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                            </tbody>
+                </table></details>
+                <br/>
+
+                <details> <summary>Probable Labels</summary>
+                <table class="table table-hover table-bordered table-sm">
+                    <thead>
+                    <tr>
+                        <th>Label</th>
+                        <th>Rank</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                            <td>beginner</td>
+                            <td>2</td>
+                        </tr>
+                                                <tr>
+                            <td>easy-fix</td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>newbie</td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>eos</td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>transactions</td>
+                            <td>1</td>
+                        </tr>
+                                            </tbody>
+                </table></details>
+                <br/>
+
+                <details> <summary>Probable Attachments</summary>
+                <table class="table table-hover table-bordered table-sm">
+                    <thead>
+                    <tr>
+                        <th>Attachment type</th>
+                        <th>Rank</th>
+                        <th>Type</th>
+                        <th>Is presented</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            </tbody>
+                </table></details>
+                <br/>
+            
+                            <details> <summary>Useful Documentation</summary>
+                <table class="table table-hover table-bordered table-sm">
+                    <thead>
+                        <tr>
+                            <th>File Name</th>
+                            <th>Page</th>
+                            <th>Rank</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/cloudera-kafka-guide.pdf" target="_blank">cloudera-kafka-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/cloudera-kafka-guide.pdf#page=45" target="_blank">45</a></td>
+                            <td>76,11%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/cloudera-kafka-guide.pdf" target="_blank">cloudera-kafka-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/cloudera-kafka-guide.pdf#page=175" target="_blank">175</a></td>
+                            <td>75,52%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=249" target="_blank">249</a></td>
+                            <td>75,47%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/cloudera-kafka-guide.pdf" target="_blank">cloudera-kafka-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/cloudera-kafka-guide.pdf#page=181" target="_blank">181</a></td>
+                            <td>68,71%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=179" target="_blank">179</a></td>
+                            <td>68,38%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=256" target="_blank">256</a></td>
+                            <td>68,27%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=250" target="_blank">250</a></td>
+                            <td>68,09%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/cloudera-kafka-guide.pdf" target="_blank">cloudera-kafka-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/cloudera-kafka-guide.pdf#page=95" target="_blank">95</a></td>
+                            <td>67,99%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=43" target="_blank">43</a></td>
+                            <td>66,37%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=314" target="_blank">314</a></td>
+                            <td>65,93%</td>
+                        </tr>
+                                            </tbody>
+                </table></details>
+                <br/>
+            
+                            <details> <summary>Confluence pages</summary>
+                <table class="table table-hover table-bordered table-sm">
+                    <thead>
+                        <tr>
+                            <th>Page ID</th>
+                            <th>Title</th>
+                            <th>URL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                            <td>158866205</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=158866205" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=158866205</a></td>
+                        </tr>
+                                                <tr>
+                            <td>87295285</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=87295285" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=87295285</a></td>
+                        </tr>
+                                                <tr>
+                            <td>399278471</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=399278471" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=399278471</a></td>
+                        </tr>
+                                                <tr>
+                            <td>451972701</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=451972701" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=451972701</a></td>
+                        </tr>
+                                                <tr>
+                            <td>68717099</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=68717099" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=68717099</a></td>
+                        </tr>
+                                                <tr>
+                            <td>70257753</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=70257753" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=70257753</a></td>
+                        </tr>
+                                                <tr>
+                            <td>294816709</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=294816709" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=294816709</a></td>
+                        </tr>
+                                                <tr>
+                            <td>217389402</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=217389402" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=217389402</a></td>
+                        </tr>
+                                                <tr>
+                            <td>384895541</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=384895541" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=384895541</a></td>
+                        </tr>
+                                                <tr>
+                            <td>75973874</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=75973874" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=75973874</a></td>
+                        </tr>
+                                            </tbody>
+                </table></details>
+                <br/>
+            
+                            <h5 class="card-title">Proposals</h5>
+                                    <div>Should assign on the qualified engineer</div>
+                                    <div>Request components field from TSE</div>
+                                    <div>Developer is probably working on the problem</div>
+                                    <div>Request affectedVersions field from TSE</div>
+                                    <div>Developer should set labels field</div>
+                                    <div>Target fix version is missing: schedule for upcoming release milestone</div>
+                                        </div>
+        </div>
+            <div class="card bg-light border-secondary mb-4">
+            <div class="card-header">
+                <h4>
+                    <h2 id="KAFKA-16800"><a href="https://issues.apache.org/jira/browse/KAFKA-16800" target="_blank">KAFKA-16800</a></h2>Resolve Gradle 9.0 deprecations
+                </h4>
+            </div>
+            <div class="card-body">
+
+                            <details> <summary>Similar Issues</summary>
+                <table class="table table-hover table-bordered table-sm">
+                    <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Key</th>
+                        <th>Summary</th>
+                        <th>Similarity</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                            <td>Bug</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-17277" target="_blank">KAFKA-17277</a></td>
+                            <td>Add version mapping and feature dependencies commands to tools (KIP-1022)</td>
+                            <td>71,47%</td>
+                        </tr>
+                                                <tr>
+                            <td>Task</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-18052" target="_blank">KAFKA-18052</a></td>
+                            <td>Decouple the dependency of feature stable version to the metadata version</td>
+                            <td>65,83%</td>
+                        </tr>
+                                                <tr>
+                            <td>Bug</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-13759" target="_blank">KAFKA-13759</a></td>
+                            <td>Disable producer idempotence by default in producers instantiated by Connect</td>
+                            <td>64,84%</td>
+                        </tr>
+                                                <tr>
+                            <td>Bug</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-20459" target="_blank">KAFKA-20459</a></td>
+                            <td>JDK 25 # UnsupportedOperationException: getSubject is not supported</td>
+                            <td>64,63%</td>
+                        </tr>
+                                                <tr>
+                            <td>Bug</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-18820" target="_blank">KAFKA-18820</a></td>
+                            <td>CVE-2025-24970 [netty-handler]</td>
+                            <td>64,59%</td>
+                        </tr>
+                                                <tr>
+                            <td>Improvement</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-18351" target="_blank">KAFKA-18351</a></td>
+                            <td>remove `version` tag for docker-compose.yml</td>
+                            <td>64,28%</td>
+                        </tr>
+                                                <tr>
+                            <td>Sub-task</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-20969" target="_blank">KAFKA-20969</a></td>
+                            <td>Mark "bootstrap.resolve.timeout.ms" as an experimental feature</td>
+                            <td>63,76%</td>
+                        </tr>
+                                                <tr>
+                            <td>Bug</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-19359" target="_blank">KAFKA-19359</a></td>
+                            <td>[8.8] [CVE-2025-48734] [commons-beanutils] [1.9.4]</td>
+                            <td>63,72%</td>
+                        </tr>
+                                                <tr>
+                            <td>Sub-task</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-10027" target="_blank">KAFKA-10027</a></td>
+                            <td>Implement read path for feature versioning scheme</td>
+                            <td>63,59%</td>
+                        </tr>
+                                                <tr>
+                            <td>New Feature</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-10026" target="_blank">KAFKA-10026</a></td>
+                            <td>KIP-584: Implement read path for versioning scheme for features</td>
+                            <td>63,56%</td>
+                        </tr>
+                                            </tbody>
+                </table></details>
+                <br/>
+
+                <details> <summary>Qualified Users</summary>
+                <table class="table table-hover table-bordered table-sm">
+                    <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>Full Name</th>
+                        <th>E-mail</th>
+                        <th>Rank</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                            <td>vishaln</td>
+                            <td>Vishal</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>3</td>
+                        </tr>
+                                                <tr>
+                            <td>hareeshbilla</td>
+                            <td>Hareesh Billa</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>3</td>
+                        </tr>
+                                                <tr>
+                            <td>chia7712</td>
+                            <td>Chia-Ping Tsai</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>3</td>
+                        </tr>
+                                                <tr>
+                            <td>junrao</td>
+                            <td>Jun Rao</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>2</td>
+                        </tr>
+                                                <tr>
+                            <td>showuon</td>
+                            <td>Luke Chen</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>2</td>
+                        </tr>
+                                                <tr>
+                            <td>m1a2st</td>
+                            <td>Ken Huang</td>
+                            <td>
+                                                        </td>
+                            <td>2</td>
+                        </tr>
+                                                <tr>
+                            <td>rreddy22</td>
+                            <td>Ritika Reddy</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>schofielaj</td>
+                            <td>Andrew Schofield</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>omnia_h_ibrahim</td>
+                            <td>Omnia Ibrahim</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>kprakasam</td>
+                            <td>Kowshik Prakasam</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>dongnuolyu</td>
+                            <td>Dongnuo Lyu</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>surghosh</td>
+                            <td>Surojeet Ghosh</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>kprakasam</td>
+                            <td>Kowshik Prakasam</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>kkonstantine</td>
+                            <td>Konstantine Karantasis</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>kkonstantine</td>
+                            <td>Konstantine Karantasis</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>fvaleri</td>
+                            <td>Federico Valeri</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                            </tbody>
+                </table></details>
+                <br/>
+
+                <details> <summary>Probable Labels</summary>
+                <table class="table table-hover table-bordered table-sm">
+                    <thead>
+                    <tr>
+                        <th>Label</th>
+                        <th>Rank</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            </tbody>
+                </table></details>
+                <br/>
+
+                <details> <summary>Probable Attachments</summary>
+                <table class="table table-hover table-bordered table-sm">
+                    <thead>
+                    <tr>
+                        <th>Attachment type</th>
+                        <th>Rank</th>
+                        <th>Type</th>
+                        <th>Is presented</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                            <td>.png</td>
+                            <td>2</td>
+                            <td>Picture</td>
+                            <td>false</td>
+                        </tr>
+                                            </tbody>
+                </table></details>
+                <br/>
+            
+                            <details> <summary>Useful Documentation</summary>
+                <table class="table table-hover table-bordered table-sm">
+                    <thead>
+                        <tr>
+                            <th>File Name</th>
+                            <th>Page</th>
+                            <th>Rank</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=160" target="_blank">160</a></td>
+                            <td>89,25%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=19" target="_blank">19</a></td>
+                            <td>86,69%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=158" target="_blank">158</a></td>
+                            <td>85,02%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=34" target="_blank">34</a></td>
+                            <td>84,61%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/cloudera-kafka-guide.pdf" target="_blank">cloudera-kafka-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/cloudera-kafka-guide.pdf#page=184" target="_blank">184</a></td>
+                            <td>84,00%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=305" target="_blank">305</a></td>
+                            <td>83,93%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=179" target="_blank">179</a></td>
+                            <td>83,50%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=39" target="_blank">39</a></td>
+                            <td>82,63%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=136" target="_blank">136</a></td>
+                            <td>82,11%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=304" target="_blank">304</a></td>
+                            <td>81,98%</td>
+                        </tr>
+                                            </tbody>
+                </table></details>
+                <br/>
+            
+                            <details> <summary>Confluence pages</summary>
+                <table class="table table-hover table-bordered table-sm">
+                    <thead>
+                        <tr>
+                            <th>Page ID</th>
+                            <th>Title</th>
+                            <th>URL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                            <td>327979416</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=327979416" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=327979416</a></td>
+                        </tr>
+                                                <tr>
+                            <td>311627137</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=311627137" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=311627137</a></td>
+                        </tr>
+                                                <tr>
+                            <td>406622741</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=406622741" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=406622741</a></td>
+                        </tr>
+                                                <tr>
+                            <td>421958161</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=421958161" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=421958161</a></td>
+                        </tr>
+                                                <tr>
+                            <td>373886068</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=373886068" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=373886068</a></td>
+                        </tr>
+                                                <tr>
+                            <td>298781371</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=298781371" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=298781371</a></td>
+                        </tr>
+                                                <tr>
+                            <td>406622835</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=406622835" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=406622835</a></td>
+                        </tr>
+                                                <tr>
+                            <td>440304999</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=440304999" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=440304999</a></td>
+                        </tr>
+                                                <tr>
+                            <td>345377879</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=345377879" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=345377879</a></td>
+                        </tr>
+                                                <tr>
+                            <td>421953714</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=421953714" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=421953714</a></td>
+                        </tr>
+                                            </tbody>
+                </table></details>
+                <br/>
+            
+                            <h5 class="card-title">Proposals</h5>
+                                    <div>Resolve sub-tasks first before closing parent ticket</div>
+                                    <div>Developer is probably working on the problem</div>
+                                    <div>Change task status to IN PROGRESS</div>
+                                    <div>Should change status to IN PROGRESS</div>
+                                    <div>Target fix version is missing: schedule for upcoming release milestone</div>
+                                        </div>
+        </div>
+            <div class="card bg-light border-secondary mb-4">
+            <div class="card-header">
+                <h4>
+                    <h2 id="KAFKA-16628"><a href="https://issues.apache.org/jira/browse/KAFKA-16628" target="_blank">KAFKA-16628</a></h2>Add system test for validating static consumer bounce and assignment when not eager
+                </h4>
+            </div>
+            <div class="card-body">
+
+                            <details> <summary>Similar Issues</summary>
+                <table class="table table-hover table-bordered table-sm">
+                    <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Key</th>
+                        <th>Summary</th>
+                        <th>Similarity</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                            <td>Sub-task</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-10292" target="_blank">KAFKA-10292</a></td>
+                            <td>fix flaky streams/streams_broker_bounce_test.py</td>
+                            <td>73,01%</td>
+                        </tr>
+                                                <tr>
+                            <td>Improvement</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-18840" target="_blank">KAFKA-18840</a></td>
+                            <td>Add system test for 2-rolling-bounce bridge release upgrade path in Streams</td>
+                            <td>70,57%</td>
+                        </tr>
+                                                <tr>
+                            <td>Test</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-19925" target="_blank">KAFKA-19925</a></td>
+                            <td>Flaky E2E transactions_upgrade_test</td>
+                            <td>68,73%</td>
+                        </tr>
+                                                <tr>
+                            <td>Test</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-17460" target="_blank">KAFKA-17460</a></td>
+                            <td>Remove downgrade_test.py as it is duplicate to kraft_upgrade_test.py </td>
+                            <td>67,42%</td>
+                        </tr>
+                                                <tr>
+                            <td>Sub-task</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-18146" target="_blank">KAFKA-18146</a></td>
+                            <td>tests/kafkatest/tests/core/upgrade_test.py needs to be re-added as KRaft</td>
+                            <td>66,85%</td>
+                        </tr>
+                                                <tr>
+                            <td>Sub-task</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-18030" target="_blank">KAFKA-18030</a></td>
+                            <td>Remove old upgrade-system-tests modules</td>
+                            <td>66,18%</td>
+                        </tr>
+                                                <tr>
+                            <td>Test</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-17978" target="_blank">KAFKA-17978</a></td>
+                            <td>StreamsUpgradeTest#test_rolling_upgrade_with_2_bounces system tests fail</td>
+                            <td>65,90%</td>
+                        </tr>
+                                                <tr>
+                            <td>Test</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-5725" target="_blank">KAFKA-5725</a></td>
+                            <td>Additional failure testing for streams with bouncing brokers</td>
+                            <td>65,82%</td>
+                        </tr>
+                                                <tr>
+                            <td>Sub-task</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-17737" target="_blank">KAFKA-17737</a></td>
+                            <td>E2E tests need to drop Kafka versions prior to 1.0.0</td>
+                            <td>65,74%</td>
+                        </tr>
+                                                <tr>
+                            <td>Bug</td>
+                            <td><a href="https://issues.apache.org/jira/browse/KAFKA-12455" target="_blank">KAFKA-12455</a></td>
+                            <td>OffsetValidationTest.test_broker_rolling_bounce failing for Raft quorums</td>
+                            <td>65,70%</td>
+                        </tr>
+                                            </tbody>
+                </table></details>
+                <br/>
+
+                <details> <summary>Qualified Users</summary>
+                <table class="table table-hover table-bordered table-sm">
+                    <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>Full Name</th>
+                        <th>E-mail</th>
+                        <th>Rank</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                            <td>chia7712</td>
+                            <td>Chia-Ping Tsai</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>7</td>
+                        </tr>
+                                                <tr>
+                            <td>rndgstn</td>
+                            <td>Ron Dagostino</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>3</td>
+                        </tr>
+                                                <tr>
+                            <td>mingdaoy</td>
+                            <td>Mingdao Yang</td>
+                            <td>
+                                                        </td>
+                            <td>2</td>
+                        </tr>
+                                                <tr>
+                            <td>francisgodinho</td>
+                            <td>Francis Godinho</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>2</td>
+                        </tr>
+                                                <tr>
+                            <td>ableegoldman</td>
+                            <td>A. Sophie Blee-Goldman</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>2</td>
+                        </tr>
+                                                <tr>
+                            <td>mingdaoy</td>
+                            <td>Mingdao Yang</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>2</td>
+                        </tr>
+                                                <tr>
+                            <td>ijuma</td>
+                            <td>Ismael Juma</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>2</td>
+                        </tr>
+                                                <tr>
+                            <td>yangpoan</td>
+                            <td>PoAn Yang</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>2</td>
+                        </tr>
+                                                <tr>
+                            <td>nicktelford</td>
+                            <td>Nicholas Telford</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>enothereska</td>
+                            <td>Eno Thereska</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>cadonna</td>
+                            <td>Bruno Cadonna</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>francisgodinho</td>
+                            <td>Francis Godinho</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>yung</td>
+                            <td>Jhen-Yung Hsu</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>mjsax</td>
+                            <td>Matthias J. Sax</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>jolshan</td>
+                            <td>Justine Olshan</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>chiacyu</td>
+                            <td>Chia-Chuan Yu</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>vvcephei</td>
+                            <td>John Roesler</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>rndgstn</td>
+                            <td>Ron Dagostino</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>bbejeck</td>
+                            <td>Bill Bejeck</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>cadonna</td>
+                            <td>Bruno Cadonna</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>yung</td>
+                            <td>Jhen-Yung Hsu</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>kevinwu2412</td>
+                            <td>Kevin Wu</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>githubbot</td>
+                            <td>ASF GitHub Bot</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>taijuwu</td>
+                            <td>TaiJuWu</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>kkonstantine</td>
+                            <td>Konstantine Karantasis</td>
+                            <td>
+                                                            <a href="mailto:<unknown>"><unknown></a>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                                <tr>
+                            <td>dajac</td>
+                            <td>David Jacot</td>
+                            <td>
+                                                        </td>
+                            <td>1</td>
+                        </tr>
+                                            </tbody>
+                </table></details>
+                <br/>
+
+                <details> <summary>Probable Labels</summary>
+                <table class="table table-hover table-bordered table-sm">
+                    <thead>
+                    <tr>
+                        <th>Label</th>
+                        <th>Rank</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                            <td>flaky-test</td>
+                            <td>1</td>
+                        </tr>
+                                            </tbody>
+                </table></details>
+                <br/>
+
+                <details> <summary>Probable Attachments</summary>
+                <table class="table table-hover table-bordered table-sm">
+                    <thead>
+                    <tr>
+                        <th>Attachment type</th>
+                        <th>Rank</th>
+                        <th>Type</th>
+                        <th>Is presented</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                            <td>.png</td>
+                            <td>2</td>
+                            <td>Picture</td>
+                            <td>false</td>
+                        </tr>
+                                            </tbody>
+                </table></details>
+                <br/>
+            
+                            <details> <summary>Useful Documentation</summary>
+                <table class="table table-hover table-bordered table-sm">
+                    <thead>
+                        <tr>
+                            <th>File Name</th>
+                            <th>Page</th>
+                            <th>Rank</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=230" target="_blank">230</a></td>
+                            <td>93,69%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=228" target="_blank">228</a></td>
+                            <td>93,40%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=317" target="_blank">317</a></td>
+                            <td>91,56%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/cloudera-kafka-guide.pdf" target="_blank">cloudera-kafka-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/cloudera-kafka-guide.pdf#page=21" target="_blank">21</a></td>
+                            <td>91,19%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=224" target="_blank">224</a></td>
+                            <td>91,06%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=320" target="_blank">320</a></td>
+                            <td>91,02%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/cloudera-kafka-guide.pdf" target="_blank">cloudera-kafka-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/cloudera-kafka-guide.pdf#page=81" target="_blank">81</a></td>
+                            <td>91,01%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=310" target="_blank">310</a></td>
+                            <td>90,52%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/cloudera-kafka-guide.pdf" target="_blank">cloudera-kafka-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/cloudera-kafka-guide.pdf#page=28" target="_blank">28</a></td>
+                            <td>90,47%</td>
+                        </tr>
+                                                <tr>
+                            <td><a href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf" target="_blank">confluent-kafka-definitive-guide.pdf</a></td>
+                            <td><a title="hover text" href="file:///C:/iresolver/docs/confluent-kafka-definitive-guide.pdf#page=254" target="_blank">254</a></td>
+                            <td>90,44%</td>
+                        </tr>
+                                            </tbody>
+                </table></details>
+                <br/>
+            
+                            <details> <summary>Confluence pages</summary>
+                <table class="table table-hover table-bordered table-sm">
+                    <thead>
+                        <tr>
+                            <th>Page ID</th>
+                            <th>Title</th>
+                            <th>URL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                            <td>130026601</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=130026601" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=130026601</a></td>
+                        </tr>
+                                                <tr>
+                            <td>311627137</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=311627137" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=311627137</a></td>
+                        </tr>
+                                                <tr>
+                            <td>75976179</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=75976179" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=75976179</a></td>
+                        </tr>
+                                                <tr>
+                            <td>240882784</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=240882784" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=240882784</a></td>
+                        </tr>
+                                                <tr>
+                            <td>181308218</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=181308218" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=181308218</a></td>
+                        </tr>
+                                                <tr>
+                            <td>406619660</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=406619660" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=406619660</a></td>
+                        </tr>
+                                                <tr>
+                            <td>181308223</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=181308223" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=181308223</a></td>
+                        </tr>
+                                                <tr>
+                            <td>340036497</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=340036497" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=340036497</a></td>
+                        </tr>
+                                                <tr>
+                            <td>177048248</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=177048248" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=177048248</a></td>
+                        </tr>
+                                                <tr>
+                            <td>27849357</td>
+                            <td></td>
+                            <td><a href="https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=27849357" target="_blank">https://cwiki.apache.org/confluence/display/pages/viewinfo.action?pageId=27849357</a></td>
+                        </tr>
+                                            </tbody>
+                </table></details>
+                <br/>
+            
+                            <h5 class="card-title">Proposals</h5>
+                                    <div>Should change status to IN PROGRESS</div>
+                                    <div>Request components field from TSE</div>
+                                    <div>Change task status to IN PROGRESS</div>
+                                    <div>Developer is probably working on the problem</div>
+                                    <div>Target fix version is missing: schedule for upcoming release milestone</div>
+                                        </div>
+        </div>
+    </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

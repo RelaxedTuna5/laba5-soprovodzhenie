@@ -1,0 +1,8 @@
+*.zip
+iresolver/
+iresolver_dist/
+vyatkin_images/
+Вяткин_АА_Отчет_5.docx
+*.log
+*.tmp
+__pycache__/

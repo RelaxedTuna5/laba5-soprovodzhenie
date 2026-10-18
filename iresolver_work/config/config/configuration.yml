@@ -1,0 +1,111 @@
+
+administration:
+  connectorType: JIRA # BUGZILLA
+  processors:
+    - issues
+    - documentation
+    - confluence
+    - rule-engine
+  reporters:
+    - html
+    - text
+  parallelExecution: false
+
+
+connectors:
+  jira:
+    url: https://issues.apache.org/jira
+    anonymous: true
+    credentialsFolder: ../data/
+    resolvedQuery: project = Kafka AND resolution != Unresolved
+    unresolvedQuery: project = Kafka AND resolution = Unresolved AND key in (KAFKA-16800, KAFKA-16628, KAFKA-17361)
+    batchSize: 1000
+    batchDelay: 100
+    issueFieldsCsvFile : ../output/field.csv
+    resolvedIssueFields:
+      - summary
+      - description
+    unresolvedIssueFields:
+      - "*all"
+
+  bugzilla:
+    url: https://bz.apache.org/bugzilla
+    anonymous: true
+    credentialsFolder: ../data/
+    resolvedQuery: product = Ant, status = Close
+    unresolvedQuery: product = Ant, status = Open
+    batchSize: 1000
+    batchDelay: 100
+
+  confluence:
+    url: https://cwiki.apache.org/confluence
+    anonymous: true
+    credentialsFolder: ../data/
+    spaceKeys:
+      - KAFKA
+    limitPerRequest: 100
+
+  gitlab:
+    url: https://gitlab.com
+    credentialsFolder: ../data/
+    resolvedQuery: project = ase/ase, status = Closed
+    unresolvedQuery: project = ase/ase, status = Opened
+    batchSize: 1000
+    batchDelay: 100
+
+vectorizer:
+  batchSize: 100
+  iterations: 1
+  epochs: 1
+  layerSize: 100
+  learningRate: 0.025
+  minWordFrequency: 5
+  sampling: 0.0005
+  windowSize: 5
+  topResults: 10
+  language: English
+
+
+processors:
+  issues:
+    dataSetFile: ../data/Issues_DataSet.txt
+    vectorModelFile: ../data/Issues_VectorModel.zip
+    overwriteMode: false
+
+  granularIssues:
+    affectedIssueParts:
+      - summary
+      - description
+      #- comments
+    summaryDataSetFile: ../data/SummaryIssues_DataSet.txt
+    descriptionDataSetFile: ../data/DescriptionIssues_DataSet.txt
+    commentsDataSetFile: ../data/CommentsIssues_DataSet.txt
+    summaryVectorModelFile: ../data/SummaryIssues_VectorModel.zip
+    descriptionVectorModelFile: ../data/DescriptionIssues_VectorModel.zip
+    commentsVectorModelFile: ../data/CommentsIssues_VectorModel.zip
+
+  documentation:
+    dataSetFile: ../data/Documentation_DataSet.txt
+    vectorModelFile: ../data/Documentation_VectorModel.zip
+    docsMetadataFile: ../data/Documentation_Metadata.txt
+    docsListFile: ../data/Documentation_List.txt
+    docsFolder: ../docs/
+
+  confluence:
+    dataSetFile: ../data/Confluence_DataSet.txt
+    vectorModelFile: ../data/Confluence_VectorModel.zip
+    confluenceMetadataFile: ../data/Confluence_Metadata.txt
+
+  ruleEngine:
+    rulesLocation: classpath*:*.drl
+    autoExecution: false
+
+
+reporters:
+  html:
+    openBrowser: false
+    htmlTemplateFileName: html-report-template.vm
+    outputFile: ../output/report.html
+
+  text:
+    outputFile: ../output/report.txt
