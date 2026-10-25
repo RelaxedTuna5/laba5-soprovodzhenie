@@ -18,7 +18,7 @@ connectors:
     anonymous: true
     credentialsFolder: ../data/
     resolvedQuery: project = Kafka AND resolution != Unresolved
-    unresolvedQuery: project = Kafka AND resolution = Unresolved AND type = Task AND priority = Major
+    unresolvedQuery: project = Kafka AND resolution = Unresolved AND key in (KAFKA-16800, KAFKA-16628, KAFKA-17361)
     batchSize: 1000
     batchDelay: 100
     issueFieldsCsvFile : ../output/field.csv

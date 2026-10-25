@@ -95,7 +95,6 @@ proposals:
 Resolve sub-tasks first before closing parent ticket
 Developer is probably working on the problem
 Change task status to IN PROGRESS
-Should change status to IN PROGRESS
 Target fix version is missing: schedule for upcoming release milestone
 
 
@@ -148,10 +147,9 @@ attachments:
 .png - 2 - Picture - false
 
 proposals: 
-Should change status to IN PROGRESS
 Request components field from TSE
-Change task status to IN PROGRESS
 Developer is probably working on the problem
+Change task status to IN PROGRESS
 Target fix version is missing: schedule for upcoming release milestone
 
 
