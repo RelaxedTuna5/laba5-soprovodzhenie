@@ -1,16 +1,26 @@
+# Архивы и дистрибутивы
 *.zip
 iresolver/
 iresolver_dist/
 vyatkin_images/
 Вяткин_АА_Отчет_5.docx
+Отчет_5.docx
+
+# Логи и временные файлы
 *.log
 *.tmp
+logs/
+iresolver_work/logs/
+velocity.log
 __pycache__/
 ~$*.docx
+
+# Служебные файлы генерации
 extracted_fig1_9.png
 render_attachments.html
 *_dump.txt
 screenshots_info.txt
 user_screenshots_list.txt
 
+# Библиотеки iResolver (подключены через junction)
 iresolver_work/lib/
